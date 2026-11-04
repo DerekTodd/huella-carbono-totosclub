@@ -1,0 +1,10 @@
+data/raw/
+tmp/
+__pycache__/
+.venv/
+.env
+.env.*
+!.env.example
+node_modules/
+dist/
+output/*.zip

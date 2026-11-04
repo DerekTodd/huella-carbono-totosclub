@@ -1,0 +1,787 @@
+entity,year,field,rule,source_value
+North America,2010,co2_per_capita,derived_discrepancy,12.715312004089355
+North America,2011,co2_per_capita,derived_discrepancy,12.401896476745605
+North America,2012,co2_per_capita,derived_discrepancy,11.919598579406738
+North America,2013,co2_per_capita,derived_discrepancy,12.050420761108398
+North America,2014,co2_per_capita,derived_discrepancy,12.008156776428223
+North America,2015,co2_per_capita,derived_discrepancy,11.604535102844238
+North America,2016,co2_per_capita,derived_discrepancy,11.24858570098877
+North America,2017,co2_per_capita,derived_discrepancy,11.04257583618164
+North America,2018,co2_per_capita,derived_discrepancy,11.245827674865723
+North America,2019,co2_per_capita,derived_discrepancy,10.953225135803223
+North America,2020,co2_per_capita,derived_discrepancy,9.761333465576172
+North America,2021,co2_per_capita,derived_discrepancy,10.35216236114502
+North America,2022,co2_per_capita,derived_discrepancy,10.390201568603516
+North America,2023,co2_per_capita,derived_discrepancy,10.09691333770752
+Oceania,2010,co2_per_capita,derived_discrepancy,12.212044715881348
+Oceania,2011,co2_per_capita,derived_discrepancy,11.973845481872559
+Oceania,2012,co2_per_capita,derived_discrepancy,11.81582260131836
+Oceania,2013,co2_per_capita,derived_discrepancy,11.422256469726562
+Oceania,2014,co2_per_capita,derived_discrepancy,11.166204452514648
+Oceania,2015,co2_per_capita,derived_discrepancy,11.188197135925293
+Oceania,2016,co2_per_capita,derived_discrepancy,11.19958209991455
+Oceania,2017,co2_per_capita,derived_discrepancy,11.119261741638184
+Oceania,2018,co2_per_capita,derived_discrepancy,10.996686935424805
+Oceania,2019,co2_per_capita,derived_discrepancy,10.84414005279541
+Oceania,2020,co2_per_capita,derived_discrepancy,10.258111000061035
+Oceania,2021,co2_per_capita,derived_discrepancy,9.912677764892578
+Oceania,2022,co2_per_capita,derived_discrepancy,9.678767204284668
+Oceania,2023,co2_per_capita,derived_discrepancy,9.56209659576416
+United Arab Emirates,2010,co2,iqr_review_keep,185.84840393066406
+Argentina,2010,co2,iqr_review_keep,186.1212921142578
+Australia,2010,co2,iqr_review_keep,405.02593994140625
+Brazil,2010,co2,iqr_review_keep,440.26904296875
+Canada,2010,co2,iqr_review_keep,554.3074340820312
+China,2010,co2,iqr_review_keep,8610.0478515625
+Germany,2010,co2,iqr_review_keep,826.7047119140625
+Egypt,2010,co2,iqr_review_keep,202.70423889160156
+Spain,2010,co2,iqr_review_keep,282.5850830078125
+France,2010,co2,iqr_review_keep,377.0793762207031
+United Kingdom,2010,co2,iqr_review_keep,511.9045715332031
+Indonesia,2010,co2,iqr_review_keep,445.3700866699219
+India,2010,co2,iqr_review_keep,1678.529541015625
+Iran,2010,co2,iqr_review_keep,561.4960327148438
+Italy,2010,co2,iqr_review_keep,435.6720275878906
+Japan,2010,co2,iqr_review_keep,1211.09033203125
+Kazakhstan,2010,co2,iqr_review_keep,248.0927734375
+South Korea,2010,co2,iqr_review_keep,594.339111328125
+Mexico,2010,co2,iqr_review_keep,456.4089660644531
+Malaysia,2010,co2,iqr_review_keep,199.34640502929688
+Netherlands,2010,co2,iqr_review_keep,182.47874450683594
+Pakistan,2010,co2,iqr_review_keep,147.5039825439453
+Poland,2010,co2,iqr_review_keep,334.02752685546875
+Russia,2010,co2,iqr_review_keep,1633.1474609375
+Saudi Arabia,2010,co2,iqr_review_keep,555.6397705078125
+Thailand,2010,co2,iqr_review_keep,241.01898193359375
+Turkey,2010,co2,iqr_review_keep,318.7103271484375
+Taiwan,2010,co2,iqr_review_keep,270.7179870605469
+Ukraine,2010,co2,iqr_review_keep,294.36578369140625
+United States,2010,co2,iqr_review_keep,5669.25
+Venezuela,2010,co2,iqr_review_keep,189.5816650390625
+South Africa,2010,co2,iqr_review_keep,467.3525085449219
+Aruba,2010,co2_per_capita_calc,iqr_review_keep,25.029971884437234
+United Arab Emirates,2010,co2_per_capita_calc,iqr_review_keep,26.785592345101136
+Australia,2010,co2_per_capita_calc,iqr_review_keep,18.292546650409154
+Bahrain,2010,co2_per_capita_calc,iqr_review_keep,24.0202410887545
+Brunei,2010,co2_per_capita_calc,iqr_review_keep,20.434780211272926
+Curacao,2010,co2_per_capita_calc,iqr_review_keep,25.712541257565135
+Kuwait,2010,co2_per_capita_calc,iqr_review_keep,30.48236502441984
+Luxembourg,2010,co2_per_capita_calc,iqr_review_keep,22.05382334706224
+Oman,2010,co2_per_capita_calc,iqr_review_keep,18.65098313383119
+Qatar,2010,co2_per_capita_calc,iqr_review_keep,43.09006942393701
+Saudi Arabia,2010,co2_per_capita_calc,iqr_review_keep,22.08676753511797
+Trinidad and Tobago,2010,co2_per_capita_calc,iqr_review_keep,33.96106332813829
+United States,2010,co2_per_capita_calc,iqr_review_keep,18.22542031185119
+United Arab Emirates,2011,co2,iqr_review_keep,198.5181884765625
+Argentina,2011,co2,iqr_review_keep,189.88381958007812
+Australia,2011,co2,iqr_review_keep,403.8743896484375
+Brazil,2011,co2,iqr_review_keep,461.91131591796875
+Canada,2011,co2,iqr_review_keep,562.8324584960938
+China,2011,co2,iqr_review_keep,9520.1533203125
+Germany,2011,co2,iqr_review_keep,804.5415649414062
+Egypt,2011,co2,iqr_review_keep,221.675048828125
+Spain,2011,co2,iqr_review_keep,283.2750244140625
+France,2011,co2,iqr_review_keep,355.1268005371094
+United Kingdom,2011,co2,iqr_review_keep,469.71331787109375
+Indonesia,2011,co2,iqr_review_keep,500.4576721191406
+India,2011,co2,iqr_review_keep,1765.69482421875
+Iran,2011,co2,iqr_review_keep,576.36572265625
+Italy,2011,co2,iqr_review_keep,423.8971252441406
+Japan,2011,co2,iqr_review_keep,1261.1805419921875
+Kazakhstan,2011,co2,iqr_review_keep,238.15695190429688
+South Korea,2011,co2,iqr_review_keep,623.4428100585938
+Mexico,2011,co2,iqr_review_keep,483.3016052246094
+Malaysia,2011,co2,iqr_review_keep,203.45277404785156
+Netherlands,2011,co2,iqr_review_keep,169.3461151123047
+Pakistan,2011,co2,iqr_review_keep,149.48829650878906
+Poland,2011,co2,iqr_review_keep,333.40606689453125
+Russia,2011,co2,iqr_review_keep,1684.989013671875
+Saudi Arabia,2011,co2,iqr_review_keep,540.23583984375
+Thailand,2011,co2,iqr_review_keep,244.87815856933594
+Turkey,2011,co2,iqr_review_keep,344.2148132324219
+Taiwan,2011,co2,iqr_review_keep,276.77099609375
+Ukraine,2011,co2,iqr_review_keep,308.37640380859375
+United States,2011,co2,iqr_review_keep,5538.97314453125
+Venezuela,2011,co2,iqr_review_keep,168.71250915527344
+Vietnam,2011,co2,iqr_review_keep,152.56393432617188
+South Africa,2011,co2,iqr_review_keep,474.27276611328125
+Aruba,2011,co2_per_capita_calc,iqr_review_keep,24.70601460173423
+United Arab Emirates,2011,co2_per_capita_calc,iqr_review_keep,27.57413059530809
+Australia,2011,co2_per_capita_calc,iqr_review_keep,17.966119224234255
+Bahrain,2011,co2_per_capita_calc,iqr_review_keep,23.65404998116638
+Brunei,2011,co2_per_capita_calc,iqr_review_keep,23.924783723785545
+Curacao,2011,co2_per_capita_calc,iqr_review_keep,32.45229410499111
+Kuwait,2011,co2_per_capita_calc,iqr_review_keep,27.818709779177983
+Luxembourg,2011,co2_per_capita_calc,iqr_review_keep,21.384250949828555
+Oman,2011,co2_per_capita_calc,iqr_review_keep,18.625142277785155
+Qatar,2011,co2_per_capita_calc,iqr_review_keep,45.17462595131475
+Saudi Arabia,2011,co2_per_capita_calc,iqr_review_keep,20.69422249830458
+Sint Maarten (Dutch part),2011,co2_per_capita_calc,iqr_review_keep,16.704970050291987
+Trinidad and Tobago,2011,co2_per_capita_calc,iqr_review_keep,33.72311172516525
+United States,2011,co2_per_capita_calc,iqr_review_keep,17.634140882732474
+United Arab Emirates,2012,co2,iqr_review_keep,208.3235626220703
+Argentina,2012,co2,iqr_review_keep,191.71456909179688
+Australia,2012,co2,iqr_review_keep,405.005126953125
+Brazil,2012,co2,iqr_review_keep,497.46820068359375
+Canada,2012,co2,iqr_review_keep,561.76953125
+China,2012,co2,iqr_review_keep,9767.310546875
+Germany,2012,co2,iqr_review_keep,814.093017578125
+Algeria,2012,co2,iqr_review_keep,135.5934600830078
+Egypt,2012,co2,iqr_review_keep,212.5244598388672
+Spain,2012,co2,iqr_review_keep,277.4321594238281
+France,2012,co2,iqr_review_keep,358.1002502441406
+United Kingdom,2012,co2,iqr_review_keep,487.4767761230469
+Indonesia,2012,co2,iqr_review_keep,515.7695922851562
+India,2012,co2,iqr_review_keep,1926.986328125
+Iran,2012,co2,iqr_review_keep,599.2783203125
+Iraq,2012,co2,iqr_review_keep,134.03955078125
+Italy,2012,co2,iqr_review_keep,403.4435119628906
+Japan,2012,co2,iqr_review_keep,1302.112548828125
+Kazakhstan,2012,co2,iqr_review_keep,245.26290893554688
+South Korea,2012,co2,iqr_review_keep,627.9430541992188
+Mexico,2012,co2,iqr_review_keep,501.4922790527344
+Malaysia,2012,co2,iqr_review_keep,212.99363708496094
+Netherlands,2012,co2,iqr_review_keep,165.7518768310547
+Pakistan,2012,co2,iqr_review_keep,150.55506896972656
+Poland,2012,co2,iqr_review_keep,325.7777099609375
+Russia,2012,co2,iqr_review_keep,1700.10400390625
+Saudi Arabia,2012,co2,iqr_review_keep,605.7122802734375
+Thailand,2012,co2,iqr_review_keep,262.34765625
+Turkey,2012,co2,iqr_review_keep,358.64459228515625
+Taiwan,2012,co2,iqr_review_keep,273.2820129394531
+Ukraine,2012,co2,iqr_review_keep,304.4299011230469
+United States,2012,co2,iqr_review_keep,5331.46728515625
+Venezuela,2012,co2,iqr_review_keep,175.84507751464844
+Vietnam,2012,co2,iqr_review_keep,144.28753662109375
+South Africa,2012,co2,iqr_review_keep,461.4383850097656
+United Arab Emirates,2012,co2_per_capita_calc,iqr_review_keep,27.78713786731366
+Australia,2012,co2_per_capita_calc,iqr_review_keep,17.72245942584531
+Bahrain,2012,co2_per_capita_calc,iqr_review_keep,22.36482381524887
+Brunei,2012,co2_per_capita_calc,iqr_review_keep,23.423746532293414
+Canada,2012,co2_per_capita_calc,iqr_review_keep,16.08617144046879
+Curacao,2012,co2_per_capita_calc,iqr_review_keep,39.0756232755209
+Kuwait,2012,co2_per_capita_calc,iqr_review_keep,30.326586340296092
+Luxembourg,2012,co2_per_capita_calc,iqr_review_keep,20.45004377316598
+Oman,2012,co2_per_capita_calc,iqr_review_keep,17.79054456937243
+Qatar,2012,co2_per_capita_calc,iqr_review_keep,49.151568231804255
+Saudi Arabia,2012,co2_per_capita_calc,iqr_review_keep,22.382021857573985
+Sint Maarten (Dutch part),2012,co2_per_capita_calc,iqr_review_keep,19.9721454213199
+Trinidad and Tobago,2012,co2_per_capita_calc,iqr_review_keep,32.88119673978772
+United States,2012,co2_per_capita_calc,iqr_review_keep,16.812391144006877
+United Arab Emirates,2013,co2,iqr_review_keep,214.1880645751953
+Argentina,2013,co2,iqr_review_keep,189.52484130859375
+Australia,2013,co2,iqr_review_keep,397.8498840332031
+Brazil,2013,co2,iqr_review_keep,531.56884765625
+Canada,2013,co2,iqr_review_keep,568.5897216796875
+China,2013,co2,iqr_review_keep,9942.37109375
+Germany,2013,co2,iqr_review_keep,831.7455444335938
+Algeria,2013,co2,iqr_review_keep,141.53427124023438
+Egypt,2013,co2,iqr_review_keep,219.08656311035156
+Spain,2013,co2,iqr_review_keep,252.10916137695312
+France,2013,co2,iqr_review_keep,360.0133361816406
+United Kingdom,2013,co2,iqr_review_keep,477.61126708984375
+Indonesia,2013,co2,iqr_review_keep,493.43511962890625
+India,2013,co2,iqr_review_keep,1995.337158203125
+Iran,2013,co2,iqr_review_keep,609.9965209960938
+Iraq,2013,co2,iqr_review_keep,141.70437622070312
+Italy,2013,co2,iqr_review_keep,369.4605407714844
+Japan,2013,co2,iqr_review_keep,1311.8756103515625
+Kazakhstan,2013,co2,iqr_review_keep,253.53273010253906
+South Korea,2013,co2,iqr_review_keep,634.5806884765625
+Mexico,2013,co2,iqr_review_keep,495.41156005859375
+Malaysia,2013,co2,iqr_review_keep,241.67108154296875
+Netherlands,2013,co2,iqr_review_keep,164.9253692626953
+Pakistan,2013,co2,iqr_review_keep,148.18304443359375
+Poland,2013,co2,iqr_review_keep,321.75714111328125
+Russia,2013,co2,iqr_review_keep,1637.5469970703125
+Saudi Arabia,2013,co2,iqr_review_keep,583.1779174804688
+Thailand,2013,co2,iqr_review_keep,263.7535095214844
+Turkey,2013,co2,iqr_review_keep,350.6335754394531
+Taiwan,2013,co2,iqr_review_keep,274.57598876953125
+Ukraine,2013,co2,iqr_review_keep,297.54022216796875
+United States,2013,co2,iqr_review_keep,5473.43603515625
+Venezuela,2013,co2,iqr_review_keep,198.45216369628906
+Vietnam,2013,co2,iqr_review_keep,151.45936584472656
+South Africa,2013,co2,iqr_review_keep,456.18798828125
+United Arab Emirates,2013,co2_per_capita_calc,iqr_review_keep,27.348332415312207
+Australia,2013,co2_per_capita_calc,iqr_review_keep,17.121933378776788
+Bahrain,2013,co2_per_capita_calc,iqr_review_keep,24.839421365334214
+Brunei,2013,co2_per_capita_calc,iqr_review_keep,18.545627518619533
+Curacao,2013,co2_per_capita_calc,iqr_review_keep,36.36551719475917
+Kuwait,2013,co2_per_capita_calc,iqr_review_keep,23.675166670744314
+Luxembourg,2013,co2_per_capita_calc,iqr_review_keep,18.99927511296614
+Oman,2013,co2_per_capita_calc,iqr_review_keep,17.10705185875294
+Qatar,2013,co2_per_capita_calc,iqr_review_keep,44.98240569624705
+Saudi Arabia,2013,co2_per_capita_calc,iqr_review_keep,20.80784810553706
+Sint Maarten (Dutch part),2013,co2_per_capita_calc,iqr_review_keep,19.918039164030436
+Trinidad and Tobago,2013,co2_per_capita_calc,iqr_review_keep,32.420662875837934
+United States,2013,co2_per_capita_calc,iqr_review_keep,17.09856979485728
+United Arab Emirates,2014,co2,iqr_review_keep,214.53033447265625
+Argentina,2014,co2,iqr_review_keep,188.5391845703125
+Australia,2014,co2,iqr_review_keep,392.6095886230469
+Brazil,2014,co2,iqr_review_keep,556.5255126953125
+Canada,2014,co2,iqr_review_keep,564.938232421875
+China,2014,co2,iqr_review_keep,9976.02734375
+Germany,2014,co2,iqr_review_keep,792.5836181640625
+Algeria,2014,co2,iqr_review_keep,152.43466186523438
+Egypt,2014,co2,iqr_review_keep,227.25408935546875
+Spain,2014,co2,iqr_review_keep,253.6578369140625
+France,2014,co2,iqr_review_keep,327.80877685546875
+United Kingdom,2014,co2,iqr_review_keep,438.80706787109375
+Indonesia,2014,co2,iqr_review_keep,498.02880859375
+India,2014,co2,iqr_review_keep,2148.052001953125
+Iran,2014,co2,iqr_review_keep,644.2276000976562
+Iraq,2014,co2,iqr_review_keep,137.51271057128906
+Italy,2014,co2,iqr_review_keep,349.3889465332031
+Japan,2014,co2,iqr_review_keep,1260.2723388671875
+Kazakhstan,2014,co2,iqr_review_keep,299.1373291015625
+South Korea,2014,co2,iqr_review_keep,629.366455078125
+Mexico,2014,co2,iqr_review_keep,484.0445251464844
+Malaysia,2014,co2,iqr_review_keep,245.05337524414062
+Netherlands,2014,co2,iqr_review_keep,157.50282287597656
+Pakistan,2014,co2,iqr_review_keep,150.80950927734375
+Poland,2014,co2,iqr_review_keep,309.41534423828125
+Russia,2014,co2,iqr_review_keep,1637.311279296875
+Saudi Arabia,2014,co2,iqr_review_keep,585.109130859375
+Thailand,2014,co2,iqr_review_keep,272.4876403808594
+Turkey,2014,co2,iqr_review_keep,367.2716369628906
+Taiwan,2014,co2,iqr_review_keep,276.9590148925781
+Ukraine,2014,co2,iqr_review_keep,257.70306396484375
+United States,2014,co2,iqr_review_keep,5531.38525390625
+Venezuela,2014,co2,iqr_review_keep,175.99159240722656
+Vietnam,2014,co2,iqr_review_keep,180.04751586914062
+South Africa,2014,co2,iqr_review_keep,481.6378479003906
+United Arab Emirates,2014,co2_per_capita_calc,iqr_review_keep,26.04509650166765
+Australia,2014,co2_per_capita_calc,iqr_review_keep,16.639102428509947
+Bahrain,2014,co2_per_capita_calc,iqr_review_keep,23.59034158836029
+Brunei,2014,co2_per_capita_calc,iqr_review_keep,21.189786242330943
+Canada,2014,co2_per_capita_calc,iqr_review_keep,15.853792197534451
+Curacao,2014,co2_per_capita_calc,iqr_review_keep,41.18200948808832
+Kazakhstan,2014,co2_per_capita_calc,iqr_review_keep,16.790106865800727
+Kuwait,2014,co2_per_capita_calc,iqr_review_keep,20.45784561631948
+Luxembourg,2014,co2_per_capita_calc,iqr_review_keep,17.629190519332493
+New Caledonia,2014,co2_per_capita_calc,iqr_review_keep,17.81109618088044
+Oman,2014,co2_per_capita_calc,iqr_review_keep,16.53740579215572
+Qatar,2014,co2_per_capita_calc,iqr_review_keep,41.31020038490855
+Saudi Arabia,2014,co2_per_capita_calc,iqr_review_keep,20.17748011309058
+Sint Maarten (Dutch part),2014,co2_per_capita_calc,iqr_review_keep,19.770322207908148
+Trinidad and Tobago,2014,co2_per_capita_calc,iqr_review_keep,32.977735548687754
+United States,2014,co2_per_capita_calc,iqr_review_keep,17.118916794561127
+United Arab Emirates,2015,co2,iqr_review_keep,225.04483032226562
+Argentina,2015,co2,iqr_review_keep,191.8087921142578
+Australia,2015,co2,iqr_review_keep,400.58917236328125
+Brazil,2015,co2,iqr_review_keep,528.1735229492188
+Canada,2015,co2,iqr_review_keep,563.0025634765625
+China,2015,co2,iqr_review_keep,9858.0400390625
+Germany,2015,co2,iqr_review_keep,800.822509765625
+Algeria,2015,co2,iqr_review_keep,160.3216094970703
+Egypt,2015,co2,iqr_review_keep,226.65396118164062
+Spain,2015,co2,iqr_review_keep,270.2480163574219
+France,2015,co2,iqr_review_keep,332.1310119628906
+United Kingdom,2015,co2,iqr_review_keep,422.4607849121094
+Indonesia,2015,co2,iqr_review_keep,551.1600341796875
+India,2015,co2,iqr_review_keep,2231.8173828125
+Iran,2015,co2,iqr_review_keep,641.958740234375
+Iraq,2015,co2,iqr_review_keep,142.52999877929688
+Italy,2015,co2,iqr_review_keep,361.24371337890625
+Japan,2015,co2,iqr_review_keep,1219.982421875
+Kazakhstan,2015,co2,iqr_review_keep,303.0522766113281
+South Korea,2015,co2,iqr_review_keep,634.1773071289062
+Mexico,2015,co2,iqr_review_keep,479.4337158203125
+Malaysia,2015,co2,iqr_review_keep,235.94175720214844
+Netherlands,2015,co2,iqr_review_keep,163.95809936523438
+Pakistan,2015,co2,iqr_review_keep,144.8955535888672
+Poland,2015,co2,iqr_review_keep,312.5488586425781
+Russia,2015,co2,iqr_review_keep,1635.2435302734375
+Saudi Arabia,2015,co2,iqr_review_keep,624.5469970703125
+Thailand,2015,co2,iqr_review_keep,277.0987243652344
+Turkey,2015,co2,iqr_review_keep,387.7038879394531
+Taiwan,2015,co2,iqr_review_keep,276.2640075683594
+Ukraine,2015,co2,iqr_review_keep,223.8498077392578
+United States,2015,co2,iqr_review_keep,5368.49658203125
+Venezuela,2015,co2,iqr_review_keep,166.328369140625
+Vietnam,2015,co2,iqr_review_keep,213.3913116455078
+South Africa,2015,co2,iqr_review_keep,457.4732360839844
+United Arab Emirates,2015,co2_per_capita_calc,iqr_review_keep,25.942864709350314
+Australia,2015,co2_per_capita_calc,iqr_review_keep,16.72746043701614
+Bahrain,2015,co2_per_capita_calc,iqr_review_keep,23.74363681393243
+Brunei,2015,co2_per_capita_calc,iqr_review_keep,16.420919762140443
+Canada,2015,co2_per_capita_calc,iqr_review_keep,15.655382592911144
+Curacao,2015,co2_per_capita_calc,iqr_review_keep,44.00204107158272
+Kazakhstan,2015,co2_per_capita_calc,iqr_review_keep,16.757871266526017
+Kuwait,2015,co2_per_capita_calc,iqr_review_keep,24.336504405499692
+Luxembourg,2015,co2_per_capita_calc,iqr_review_keep,16.388623706158423
+New Caledonia,2015,co2_per_capita_calc,iqr_review_keep,17.222000145294274
+Oman,2015,co2_per_capita_calc,iqr_review_keep,16.220998573275786
+Qatar,2015,co2_per_capita_calc,iqr_review_keep,38.441409690824436
+Saudi Arabia,2015,co2_per_capita_calc,iqr_review_keep,20.83563515816118
+Sint Maarten (Dutch part),2015,co2_per_capita_calc,iqr_review_keep,19.839743863235764
+Trinidad and Tobago,2015,co2_per_capita_calc,iqr_review_keep,31.859778019340283
+United States,2015,co2_per_capita_calc,iqr_review_keep,16.461393501836938
+United Arab Emirates,2016,co2,iqr_review_keep,227.89772033691406
+Argentina,2016,co2,iqr_review_keep,190.02049255371094
+Australia,2016,co2,iqr_review_keep,409.66632080078125
+Brazil,2016,co2,iqr_review_keep,491.7448425292969
+Canada,2016,co2,iqr_review_keep,553.70703125
+China,2016,co2,iqr_review_keep,9748.1748046875
+Germany,2016,co2,iqr_review_keep,797.98828125
+Algeria,2016,co2,iqr_review_keep,158.30831909179688
+Egypt,2016,co2,iqr_review_keep,245.16358947753906
+Spain,2016,co2,iqr_review_keep,259.5546875
+France,2016,co2,iqr_review_keep,335.4963684082031
+United Kingdom,2016,co2,iqr_review_keep,399.4301452636719
+Indonesia,2016,co2,iqr_review_keep,547.9688720703125
+India,2016,co2,iqr_review_keep,2352.5400390625
+Iran,2016,co2,iqr_review_keep,644.6804809570312
+Iraq,2016,co2,iqr_review_keep,153.13214111328125
+Italy,2016,co2,iqr_review_keep,358.1331481933594
+Japan,2016,co2,iqr_review_keep,1199.9329833984375
+Kazakhstan,2016,co2,iqr_review_keep,301.7388000488281
+South Korea,2016,co2,iqr_review_keep,637.9140625
+Mexico,2016,co2,iqr_review_keep,478.8277282714844
+Malaysia,2016,co2,iqr_review_keep,237.29388427734375
+Netherlands,2016,co2,iqr_review_keep,164.81175231933594
+Pakistan,2016,co2,iqr_review_keep,176.74098205566406
+Poland,2016,co2,iqr_review_keep,323.30047607421875
+Russia,2016,co2,iqr_review_keep,1629.328369140625
+Saudi Arabia,2016,co2,iqr_review_keep,641.1741943359375
+Thailand,2016,co2,iqr_review_keep,284.04547119140625
+Turkey,2016,co2,iqr_review_keep,405.55224609375
+Taiwan,2016,co2,iqr_review_keep,280.1969909667969
+Ukraine,2016,co2,iqr_review_keep,234.10565185546875
+United States,2016,co2,iqr_review_keep,5245.36181640625
+Venezuela,2016,co2,iqr_review_keep,152.7334442138672
+Vietnam,2016,co2,iqr_review_keep,221.02700805664062
+South Africa,2016,co2,iqr_review_keep,457.04974365234375
+United Arab Emirates,2016,co2_per_capita_calc,iqr_review_keep,25.235403081951663
+Australia,2016,co2_per_capita_calc,iqr_review_keep,16.83793439393152
+Bahrain,2016,co2_per_capita_calc,iqr_review_keep,22.128732474662733
+Brunei,2016,co2_per_capita_calc,iqr_review_keep,17.851790386699847
+Canada,2016,co2_per_capita_calc,iqr_review_keep,15.23125399464616
+Curacao,2016,co2_per_capita_calc,iqr_review_keep,36.970398062531764
+Kazakhstan,2016,co2_per_capita_calc,iqr_review_keep,16.431353332071495
+Kuwait,2016,co2_per_capita_calc,iqr_review_keep,25.978884325406327
+Luxembourg,2016,co2_per_capita_calc,iqr_review_keep,15.556184380902277
+New Caledonia,2016,co2_per_capita_calc,iqr_review_keep,19.34057247184799
+Oman,2016,co2_per_capita_calc,iqr_review_keep,15.085772045307724
+Qatar,2016,co2_per_capita_calc,iqr_review_keep,35.153871833691504
+Saudi Arabia,2016,co2_per_capita_calc,iqr_review_keep,20.873047901989917
+Sint Maarten (Dutch part),2016,co2_per_capita_calc,iqr_review_keep,19.529080162939373
+Trinidad and Tobago,2016,co2_per_capita_calc,iqr_review_keep,27.74286382595761
+United States,2016,co2_per_capita_calc,iqr_review_keep,15.934658881780257
+United Arab Emirates,2017,co2,iqr_review_keep,196.49282836914062
+Argentina,2017,co2,iqr_review_keep,187.06800842285156
+Australia,2017,co2,iqr_review_keep,413.4078369140625
+Brazil,2017,co2,iqr_review_keep,497.2545471191406
+Canada,2017,co2,iqr_review_keep,566.6602783203125
+China,2017,co2,iqr_review_keep,10000.013671875
+Germany,2017,co2,iqr_review_keep,784.5951538085938
+Algeria,2017,co2,iqr_review_keep,165.2516326904297
+Egypt,2017,co2,iqr_review_keep,253.3638916015625
+Spain,2017,co2,iqr_review_keep,273.4838562011719
+France,2017,co2,iqr_review_keep,338.3680419921875
+United Kingdom,2017,co2,iqr_review_keep,387.36712646484375
+Indonesia,2017,co2,iqr_review_keep,570.9281616210938
+India,2017,co2,iqr_review_keep,2425.721923828125
+Iran,2017,co2,iqr_review_keep,696.407470703125
+Iraq,2017,co2,iqr_review_keep,167.47235107421875
+Italy,2017,co2,iqr_review_keep,352.6662292480469
+Japan,2017,co2,iqr_review_keep,1184.3917236328125
+Kazakhstan,2017,co2,iqr_review_keep,317.7204284667969
+South Korea,2017,co2,iqr_review_keep,654.5372924804688
+Mexico,2017,co2,iqr_review_keep,464.4066162109375
+Malaysia,2017,co2,iqr_review_keep,244.45709228515625
+Netherlands,2017,co2,iqr_review_keep,162.29574584960938
+Pakistan,2017,co2,iqr_review_keep,211.98072814941406
+Poland,2017,co2,iqr_review_keep,336.5050964355469
+Russia,2017,co2,iqr_review_keep,1661.01220703125
+Saudi Arabia,2017,co2,iqr_review_keep,644.4865112304688
+Thailand,2017,co2,iqr_review_keep,283.3476257324219
+Turkey,2017,co2,iqr_review_keep,430.6216735839844
+Taiwan,2017,co2,iqr_review_keep,285.7359924316406
+Ukraine,2017,co2,iqr_review_keep,223.2877655029297
+United States,2017,co2,iqr_review_keep,5195.41748046875
+Vietnam,2017,co2,iqr_review_keep,227.69436645507812
+South Africa,2017,co2,iqr_review_keep,440.0102844238281
+United Arab Emirates,2017,co2_per_capita_calc,iqr_review_keep,21.278514886206214
+Australia,2017,co2_per_capita_calc,iqr_review_keep,16.716149828291215
+Bahrain,2017,co2_per_capita_calc,iqr_review_keep,22.210872852615893
+Brunei,2017,co2_per_capita_calc,iqr_review_keep,21.51031418690557
+Canada,2017,co2_per_capita_calc,iqr_review_keep,15.394822095710412
+Curacao,2017,co2_per_capita_calc,iqr_review_keep,29.481583082999556
+Kazakhstan,2017,co2_per_capita_calc,iqr_review_keep,17.034184206814665
+Kuwait,2017,co2_per_capita_calc,iqr_review_keep,24.07170137954431
+Luxembourg,2017,co2_per_capita_calc,iqr_review_keep,15.508655615205562
+New Caledonia,2017,co2_per_capita_calc,iqr_review_keep,19.69206934096231
+Qatar,2017,co2_per_capita_calc,iqr_review_keep,39.03497289459233
+Saudi Arabia,2017,co2_per_capita_calc,iqr_review_keep,20.93685064291507
+Sint Maarten (Dutch part),2017,co2_per_capita_calc,iqr_review_keep,18.032605154482777
+Trinidad and Tobago,2017,co2_per_capita_calc,iqr_review_keep,27.88201061638269
+United States,2017,co2_per_capita_calc,iqr_review_keep,15.63920725069411
+United Arab Emirates,2018,co2,iqr_review_keep,204.10479736328125
+Argentina,2018,co2,iqr_review_keep,182.48345947265625
+Australia,2018,co2,iqr_review_keep,414.78057861328125
+Brazil,2018,co2,iqr_review_keep,476.6005554199219
+Canada,2018,co2,iqr_review_keep,575.0907592773438
+China,2018,co2,iqr_review_keep,10346.7900390625
+Germany,2018,co2,iqr_review_keep,758.7713623046875
+Algeria,2018,co2,iqr_review_keep,174.461181640625
+Egypt,2018,co2,iqr_review_keep,241.90318298339844
+Spain,2018,co2,iqr_review_keep,268.5205993652344
+France,2018,co2,iqr_review_keep,323.1017150878906
+United Kingdom,2018,co2,iqr_review_keep,379.7297668457031
+Indonesia,2018,co2,iqr_review_keep,607.3783569335938
+India,2018,co2,iqr_review_keep,2595.22705078125
+Iran,2018,co2,iqr_review_keep,664.5232543945312
+Iraq,2018,co2,iqr_review_keep,186.1564483642578
+Italy,2018,co2,iqr_review_keep,349.04833984375
+Japan,2018,co2,iqr_review_keep,1138.5498046875
+Kazakhstan,2018,co2,iqr_review_keep,329.5721130371094
+South Korea,2018,co2,iqr_review_keep,670.168701171875
+Mexico,2018,co2,iqr_review_keep,468.42059326171875
+Malaysia,2018,co2,iqr_review_keep,262.6470642089844
+Netherlands,2018,co2,iqr_review_keep,158.26425170898438
+Pakistan,2018,co2,iqr_review_keep,203.4996795654297
+Poland,2018,co2,iqr_review_keep,335.7186279296875
+Russia,2018,co2,iqr_review_keep,1709.90966796875
+Saudi Arabia,2018,co2,iqr_review_keep,652.2041625976562
+Thailand,2018,co2,iqr_review_keep,288.3049011230469
+Turkey,2018,co2,iqr_review_keep,423.81829833984375
+Taiwan,2018,co2,iqr_review_keep,284.1510009765625
+Ukraine,2018,co2,iqr_review_keep,231.8999786376953
+United States,2018,co2,iqr_review_keep,5361.236328125
+Vietnam,2018,co2,iqr_review_keep,255.46841430664062
+South Africa,2018,co2,iqr_review_keep,453.7659912109375
+United Arab Emirates,2018,co2_per_capita_calc,iqr_review_keep,21.836700132052897
+Australia,2018,co2_per_capita_calc,iqr_review_keep,16.51216290852523
+Bahrain,2018,co2_per_capita_calc,iqr_review_keep,21.83342948151885
+Brunei,2018,co2_per_capita_calc,iqr_review_keep,21.33589654515657
+Canada,2018,co2_per_capita_calc,iqr_review_keep,15.420051507106844
+Curacao,2018,co2_per_capita_calc,iqr_review_keep,23.809241607815586
+Kazakhstan,2018,co2_per_capita_calc,iqr_review_keep,17.407537110326665
+Kuwait,2018,co2_per_capita_calc,iqr_review_keep,23.69738428790054
+Luxembourg,2018,co2_per_capita_calc,iqr_review_keep,15.714554266575835
+New Caledonia,2018,co2_per_capita_calc,iqr_review_keep,20.853420418348772
+Oman,2018,co2_per_capita_calc,iqr_review_keep,15.371859092228592
+Qatar,2018,co2_per_capita_calc,iqr_review_keep,37.16626389466677
+Saudi Arabia,2018,co2_per_capita_calc,iqr_review_keep,21.478729017912173
+Sint Maarten (Dutch part),2018,co2_per_capita_calc,iqr_review_keep,17.24300452682222
+Trinidad and Tobago,2018,co2_per_capita_calc,iqr_review_keep,27.41023785301134
+United States,2018,co2_per_capita_calc,iqr_review_keep,16.000992239019205
+United Arab Emirates,2019,co2,iqr_review_keep,204.05807495117188
+Argentina,2019,co2,iqr_review_keep,180.4276580810547
+Australia,2019,co2,iqr_review_keep,414.9253234863281
+Brazil,2019,co2,iqr_review_keep,476.7237548828125
+Canada,2019,co2,iqr_review_keep,579.0070190429688
+China,2019,co2,iqr_review_keep,10713.5146484375
+Germany,2019,co2,iqr_review_keep,708.6489868164062
+Algeria,2019,co2,iqr_review_keep,182.42498779296875
+Egypt,2019,co2,iqr_review_keep,234.06016540527344
+Spain,2019,co2,iqr_review_keep,250.67364501953125
+France,2019,co2,iqr_review_keep,316.32080078125
+United Kingdom,2019,co2,iqr_review_keep,364.7532653808594
+Indonesia,2019,co2,iqr_review_keep,665.04931640625
+India,2019,co2,iqr_review_keep,2611.174560546875
+Iran,2019,co2,iqr_review_keep,727.2685546875
+Iraq,2019,co2,iqr_review_keep,191.77761840820312
+Italy,2019,co2,iqr_review_keep,339.637939453125
+Japan,2019,co2,iqr_review_keep,1102.06298828125
+Kazakhstan,2019,co2,iqr_review_keep,296.03961181640625
+South Korea,2019,co2,iqr_review_keep,646.1022338867188
+Mexico,2019,co2,iqr_review_keep,468.23583984375
+Malaysia,2019,co2,iqr_review_keep,277.6728820800781
+Netherlands,2019,co2,iqr_review_keep,152.7270965576172
+Pakistan,2019,co2,iqr_review_keep,190.82586669921875
+Poland,2019,co2,iqr_review_keep,317.4440612792969
+Russia,2019,co2,iqr_review_keep,1704.4586181640625
+Saudi Arabia,2019,co2,iqr_review_keep,708.334716796875
+Thailand,2019,co2,iqr_review_keep,281.87744140625
+Turkey,2019,co2,iqr_review_keep,406.5677490234375
+Taiwan,2019,co2,iqr_review_keep,274.7040100097656
+Ukraine,2019,co2,iqr_review_keep,222.18789672851562
+United States,2019,co2,iqr_review_keep,5235.912109375
+Vietnam,2019,co2,iqr_review_keep,339.3123474121094
+South Africa,2019,co2,iqr_review_keep,470.7274169921875
+United Arab Emirates,2019,co2_per_capita_calc,iqr_review_keep,21.75956814763844
+Australia,2019,co2_per_capita_calc,iqr_review_keep,16.282619013278104
+Bahrain,2019,co2_per_capita_calc,iqr_review_keep,25.319226797885957
+Brunei,2019,co2_per_capita_calc,iqr_review_keep,21.604709745452475
+Canada,2019,co2_per_capita_calc,iqr_review_keep,15.324564763630287
+Kazakhstan,2019,co2_per_capita_calc,iqr_review_keep,15.41105956933134
+Kuwait,2019,co2_per_capita_calc,iqr_review_keep,23.559089953754942
+Luxembourg,2019,co2_per_capita_calc,iqr_review_keep,15.721521023768693
+Mongolia,2019,co2_per_capita_calc,iqr_review_keep,14.578362558888436
+New Caledonia,2019,co2_per_capita_calc,iqr_review_keep,20.001928033993366
+Oman,2019,co2_per_capita_calc,iqr_review_keep,15.689613037670906
+Qatar,2019,co2_per_capita_calc,iqr_review_keep,36.25168671630176
+Saudi Arabia,2019,co2_per_capita_calc,iqr_review_keep,23.244812015750664
+Sint Maarten (Dutch part),2019,co2_per_capita_calc,iqr_review_keep,17.046077332264183
+Trinidad and Tobago,2019,co2_per_capita_calc,iqr_review_keep,27.44601694867178
+United States,2019,co2_per_capita_calc,iqr_review_keep,15.500491547532738
+United Arab Emirates,2020,co2,iqr_review_keep,215.26617431640625
+Argentina,2020,co2,iqr_review_keep,164.6127166748047
+Australia,2020,co2,iqr_review_keep,398.5469055175781
+Brazil,2020,co2,iqr_review_keep,447.9993896484375
+Canada,2020,co2,iqr_review_keep,524.2079467773438
+China,2020,co2,iqr_review_keep,10896.5205078125
+Germany,2020,co2,iqr_review_keep,647.1768188476562
+Algeria,2020,co2,iqr_review_keep,171.13853454589844
+Egypt,2020,co2,iqr_review_keep,246.3232879638672
+Spain,2020,co2,iqr_review_keep,211.76473999023438
+France,2020,co2,iqr_review_keep,281.5154724121094
+United Kingdom,2020,co2,iqr_review_keep,326.2632141113281
+Indonesia,2020,co2,iqr_review_keep,623.3040161132812
+India,2020,co2,iqr_review_keep,2422.73193359375
+Iran,2020,co2,iqr_review_keep,745.5957641601562
+Iraq,2020,co2,iqr_review_keep,172.09803771972656
+Italy,2020,co2,iqr_review_keep,302.60009765625
+Japan,2020,co2,iqr_review_keep,1037.28466796875
+Kazakhstan,2020,co2,iqr_review_keep,281.7891845703125
+South Korea,2020,co2,iqr_review_keep,597.63427734375
+Mexico,2020,co2,iqr_review_keep,428.93682861328125
+Malaysia,2020,co2,iqr_review_keep,262.1588134765625
+Netherlands,2020,co2,iqr_review_keep,136.97413635253906
+Pakistan,2020,co2,iqr_review_keep,215.50955200195312
+Philippines,2020,co2,iqr_review_keep,131.45741271972656
+Poland,2020,co2,iqr_review_keep,302.1024169921875
+Russia,2020,co2,iqr_review_keep,1631.901611328125
+Saudi Arabia,2020,co2,iqr_review_keep,653.564697265625
+Thailand,2020,co2,iqr_review_keep,271.9233093261719
+Turkey,2020,co2,iqr_review_keep,416.32806396484375
+Taiwan,2020,co2,iqr_review_keep,272.4642028808594
+Ukraine,2020,co2,iqr_review_keep,207.10064697265625
+United States,2020,co2,iqr_review_keep,4689.95361328125
+Vietnam,2020,co2,iqr_review_keep,362.598876953125
+South Africa,2020,co2,iqr_review_keep,435.29766845703125
+United Arab Emirates,2020,co2_per_capita_calc,iqr_review_keep,22.783035784343387
+Australia,2020,co2_per_capita_calc,iqr_review_keep,15.481285077350046
+Bahrain,2020,co2_per_capita_calc,iqr_review_keep,25.23751008744502
+Brunei,2020,co2_per_capita_calc,iqr_review_keep,24.93700678067162
+Canada,2020,co2_per_capita_calc,iqr_review_keep,13.732821933906301
+Faroe Islands,2020,co2_per_capita_calc,iqr_review_keep,14.415052831371192
+Kazakhstan,2020,co2_per_capita_calc,iqr_review_keep,14.463992749571581
+Kuwait,2020,co2_per_capita_calc,iqr_review_keep,20.477185922251394
+New Caledonia,2020,co2_per_capita_calc,iqr_review_keep,17.978207381213505
+Oman,2020,co2_per_capita_calc,iqr_review_keep,15.886151915155317
+Qatar,2020,co2_per_capita_calc,iqr_review_keep,36.14544299717556
+Saudi Arabia,2020,co2_per_capita_calc,iqr_review_keep,21.088714561983327
+Sint Maarten (Dutch part),2020,co2_per_capita_calc,iqr_review_keep,15.896653339859162
+Trinidad and Tobago,2020,co2_per_capita_calc,iqr_review_keep,23.661348110584264
+United States,2020,co2_per_capita_calc,iqr_review_keep,13.816894665992063
+United Arab Emirates,2021,co2,iqr_review_keep,212.17295837402344
+Argentina,2021,co2,iqr_review_keep,190.19692993164062
+Australia,2021,co2,iqr_review_keep,388.4722900390625
+Brazil,2021,co2,iqr_review_keep,496.5619812011719
+Canada,2021,co2,iqr_review_keep,537.4786376953125
+China,2021,co2,iqr_review_keep,11284.4013671875
+Germany,2021,co2,iqr_review_keep,677.9976806640625
+Algeria,2021,co2,iqr_review_keep,182.0358123779297
+Egypt,2021,co2,iqr_review_keep,266.8389892578125
+Spain,2021,co2,iqr_review_keep,228.8057098388672
+France,2021,co2,iqr_review_keep,307.2718505859375
+United Kingdom,2021,co2,iqr_review_keep,342.3655700683594
+Indonesia,2021,co2,iqr_review_keep,632.946044921875
+India,2021,co2,iqr_review_keep,2675.778076171875
+Iran,2021,co2,iqr_review_keep,779.5252685546875
+Iraq,2021,co2,iqr_review_keep,193.1151580810547
+Italy,2021,co2,iqr_review_keep,335.930419921875
+Japan,2021,co2,iqr_review_keep,1058.5018310546875
+Kazakhstan,2021,co2,iqr_review_keep,244.90371704101562
+South Korea,2021,co2,iqr_review_keep,616.0750122070312
+Mexico,2021,co2,iqr_review_keep,446.8375549316406
+Malaysia,2021,co2,iqr_review_keep,273.3321533203125
+Nigeria,2021,co2,iqr_review_keep,147.77662658691406
+Pakistan,2021,co2,iqr_review_keep,243.55235290527344
+Poland,2021,co2,iqr_review_keep,330.6937255859375
+Russia,2021,co2,iqr_review_keep,1674.5242919921875
+Saudi Arabia,2021,co2,iqr_review_keep,695.3944702148438
+Thailand,2021,co2,iqr_review_keep,267.1418151855469
+Turkey,2021,co2,iqr_review_keep,457.3772888183594
+Taiwan,2021,co2,iqr_review_keep,283.8209228515625
+Ukraine,2021,co2,iqr_review_keep,210.63607788085938
+United States,2021,co2,iqr_review_keep,5020.11083984375
+Vietnam,2021,co2,iqr_review_keep,314.19659423828125
+South Africa,2021,co2,iqr_review_keep,439.4643859863281
+United Arab Emirates,2021,co2_per_capita_calc,iqr_review_keep,21.674508762492746
+Australia,2021,co2_per_capita_calc,iqr_review_keep,14.966329522255036
+Bahrain,2021,co2_per_capita_calc,iqr_review_keep,24.148386421653676
+Brunei,2021,co2_per_capita_calc,iqr_review_keep,25.920458432072245
+Kuwait,2021,co2_per_capita_calc,iqr_review_keep,20.14994920779825
+New Caledonia,2021,co2_per_capita_calc,iqr_review_keep,15.905857020982172
+Oman,2021,co2_per_capita_calc,iqr_review_keep,16.674276406699576
+Qatar,2021,co2_per_capita_calc,iqr_review_keep,37.08210791013613
+Saudi Arabia,2021,co2_per_capita_calc,iqr_review_keep,22.19695379705451
+Sint Maarten (Dutch part),2021,co2_per_capita_calc,iqr_review_keep,16.385065062731105
+Trinidad and Tobago,2021,co2_per_capita_calc,iqr_review_keep,24.4595322483129
+United Arab Emirates,2022,co2,iqr_review_keep,207.10340881347656
+Argentina,2022,co2,iqr_review_keep,183.7681427001953
+Australia,2022,co2,iqr_review_keep,384.07843017578125
+Brazil,2022,co2,iqr_review_keep,480.05828857421875
+Canada,2022,co2,iqr_review_keep,547.6576538085938
+China,2022,co2,iqr_review_keep,11711.8076171875
+Germany,2022,co2,iqr_review_keep,667.843017578125
+Algeria,2022,co2,iqr_review_keep,192.778564453125
+Egypt,2022,co2,iqr_review_keep,249.89866638183594
+Spain,2022,co2,iqr_review_keep,234.2234649658203
+France,2022,co2,iqr_review_keep,295.3038024902344
+United Kingdom,2022,co2,iqr_review_keep,311.1180114746094
+Indonesia,2022,co2,iqr_review_keep,758.0205078125
+India,2022,co2,iqr_review_keep,2831.131591796875
+Iran,2022,co2,iqr_review_keep,767.178466796875
+Iraq,2022,co2,iqr_review_keep,217.64390563964844
+Italy,2022,co2,iqr_review_keep,340.1147155761719
+Japan,2022,co2,iqr_review_keep,1029.6448974609375
+Kazakhstan,2022,co2,iqr_review_keep,274.3455810546875
+South Korea,2022,co2,iqr_review_keep,606.8772583007812
+Mexico,2022,co2,iqr_review_keep,453.7991027832031
+Malaysia,2022,co2,iqr_review_keep,281.8838195800781
+Pakistan,2022,co2,iqr_review_keep,211.96971130371094
+Philippines,2022,co2,iqr_review_keep,150.96302795410156
+Poland,2022,co2,iqr_review_keep,314.8919677734375
+Russia,2022,co2,iqr_review_keep,1675.4608154296875
+Saudi Arabia,2022,co2,iqr_review_keep,666.9935302734375
+Thailand,2022,co2,iqr_review_keep,272.5733642578125
+Turkey,2022,co2,iqr_review_keep,443.6026916503906
+Taiwan,2022,co2,iqr_review_keep,273.98883056640625
+Ukraine,2022,co2,iqr_review_keep,143.0398712158203
+United States,2022,co2,iqr_review_keep,5055.40283203125
+Vietnam,2022,co2,iqr_review_keep,322.65313720703125
+South Africa,2022,co2,iqr_review_keep,428.78216552734375
+United Arab Emirates,2022,co2_per_capita_calc,iqr_review_keep,20.22082503840542
+Australia,2022,co2_per_capita_calc,iqr_review_keep,14.65892984015378
+Bahrain,2022,co2_per_capita_calc,iqr_review_keep,24.667640138654733
+Brunei,2022,co2_per_capita_calc,iqr_review_keep,26.872499656746776
+Canada,2022,co2_per_capita_calc,iqr_review_keep,14.107158498094917
+Kuwait,2022,co2_per_capita_calc,iqr_review_keep,25.242081096717328
+New Caledonia,2022,co2_per_capita_calc,iqr_review_keep,17.816308888796833
+Oman,2022,co2_per_capita_calc,iqr_review_keep,16.488375017964575
+Qatar,2022,co2_per_capita_calc,iqr_review_keep,37.88960911828512
+Saudi Arabia,2022,co2_per_capita_calc,iqr_review_keep,20.729953506130748
+Sint Maarten (Dutch part),2022,co2_per_capita_calc,iqr_review_keep,16.424258276698254
+Turkmenistan,2022,co2_per_capita_calc,iqr_review_keep,14.116189097470627
+Trinidad and Tobago,2022,co2_per_capita_calc,iqr_review_keep,25.06338187480029
+United States,2022,co2_per_capita_calc,iqr_review_keep,14.802046721987663
+United Arab Emirates,2023,co2,iqr_review_keep,210.42510986328125
+Argentina,2023,co2,iqr_review_keep,178.40699768066406
+Australia,2023,co2,iqr_review_keep,384.3160705566406
+Brazil,2023,co2,iqr_review_keep,483.991943359375
+Canada,2023,co2,iqr_review_keep,545.478515625
+China,2023,co2,iqr_review_keep,12172.0087890625
+Germany,2023,co2,iqr_review_keep,593.7659912109375
+Algeria,2023,co2,iqr_review_keep,202.84664916992188
+Egypt,2023,co2,iqr_review_keep,250.23019409179688
+Spain,2023,co2,iqr_review_keep,215.46075439453125
+France,2023,co2,iqr_review_keep,270.2626647949219
+United Kingdom,2023,co2,iqr_review_keep,307.8261413574219
+Indonesia,2023,co2,iqr_review_keep,762.3575439453125
+India,2023,co2,iqr_review_keep,3062.75634765625
+Iran,2023,co2,iqr_review_keep,789.6758422851562
+Iraq,2023,co2,iqr_review_keep,227.90969848632812
+Italy,2023,co2,iqr_review_keep,312.2906494140625
+Japan,2023,co2,iqr_review_keep,986.91015625
+Kazakhstan,2023,co2,iqr_review_keep,286.1748962402344
+South Korea,2023,co2,iqr_review_keep,589.178466796875
+Mexico,2023,co2,iqr_review_keep,458.25384521484375
+Malaysia,2023,co2,iqr_review_keep,276.2967529296875
+Pakistan,2023,co2,iqr_review_keep,186.8608856201172
+Philippines,2023,co2,iqr_review_keep,160.98046875
+Poland,2023,co2,iqr_review_keep,283.24346923828125
+Russia,2023,co2,iqr_review_keep,1733.1346435546875
+Saudi Arabia,2023,co2,iqr_review_keep,677.44189453125
+Thailand,2023,co2,iqr_review_keep,264.7336730957031
+Turkey,2023,co2,iqr_review_keep,486.944580078125
+Taiwan,2023,co2,iqr_review_keep,267.1268005371094
+Ukraine,2023,co2,iqr_review_keep,139.32537841796875
+United States,2023,co2,iqr_review_keep,4918.40673828125
+Vietnam,2023,co2,iqr_review_keep,347.3987731933594
+South Africa,2023,co2,iqr_review_keep,436.60418701171875
+United Arab Emirates,2023,co2_per_capita_calc,iqr_review_keep,19.772913932901826
+Australia,2023,co2_per_capita_calc,iqr_review_keep,14.529289624821288
+Bahrain,2023,co2_per_capita_calc,iqr_review_keep,24.710031237695244
+Brunei,2023,co2_per_capita_calc,iqr_review_keep,27.24141420605155
+Canada,2023,co2_per_capita_calc,iqr_review_keep,13.880179021538867
+Faroe Islands,2023,co2_per_capita_calc,iqr_review_keep,13.037724952972333
+Kazakhstan,2023,co2_per_capita_calc,iqr_review_keep,14.076407373921821
+Kuwait,2023,co2_per_capita_calc,iqr_review_keep,25.45449286311244
+New Caledonia,2023,co2_per_capita_calc,iqr_review_keep,17.48317430718146
+Oman,2023,co2_per_capita_calc,iqr_review_keep,15.80638109011355
+Qatar,2023,co2_per_capita_calc,iqr_review_keep,40.12786381454066
+Saudi Arabia,2023,co2_per_capita_calc,iqr_review_keep,20.365440383567194
+Sint Maarten (Dutch part),2023,co2_per_capita_calc,iqr_review_keep,16.156516529397614
+Turkmenistan,2023,co2_per_capita_calc,iqr_review_keep,12.956967211178936
+Trinidad and Tobago,2023,co2_per_capita_calc,iqr_review_keep,23.6442887969875
+United States,2023,co2_per_capita_calc,iqr_review_keep,14.319450830368485
+Aruba,2012,co2,annual_change_gt_30_review_keep,-46.10866499260431
+Aruba,2013,co2,annual_change_gt_30_review_keep,-35.9672998193272
+Afghanistan,2011,co2,annual_change_gt_30_review_keep,36.400375686969475
+Burkina Faso,2015,co2,annual_change_gt_30_review_keep,30.557830712936806
+Bahamas,2021,co2,annual_change_gt_30_review_keep,32.85714069919025
+Belize,2015,co2,annual_change_gt_30_review_keep,36.496348804850754
+Bermuda,2013,co2,annual_change_gt_30_review_keep,45.99999804788284
+Central African Republic,2013,co2,annual_change_gt_30_review_keep,-44.000001138735016
+Central African Republic,2015,co2,annual_change_gt_30_review_keep,47.222209670028946
+Cote d'Ivoire,2012,co2,annual_change_gt_30_review_keep,30.9181036162145
+Democratic Republic of Congo,2013,co2,annual_change_gt_30_review_keep,40.17255991978761
+Democratic Republic of Congo,2015,co2,annual_change_gt_30_review_keep,-35.36502730306486
+Democratic Republic of Congo,2022,co2,annual_change_gt_30_review_keep,37.279609681659885
+Comoros,2021,co2,annual_change_gt_30_review_keep,34.653471406435244
+Curacao,2019,co2,annual_change_gt_30_review_keep,-44.576274233410786
+Djibouti,2011,co2,annual_change_gt_30_review_keep,-39.00708761637711
+Estonia,2019,co2,annual_change_gt_30_review_keep,-30.96843384975838
+Guinea,2017,co2,annual_change_gt_30_review_keep,79.54837055730472
+Guyana,2022,co2,annual_change_gt_30_review_keep,49.91367341838793
+Kyrgyzstan,2012,co2,annual_change_gt_30_review_keep,32.36825840536363
+Cambodia,2016,co2,annual_change_gt_30_review_keep,30.02019753437932
+Cambodia,2019,co2,annual_change_gt_30_review_keep,33.64138733919522
+Kuwait,2022,co2,annual_change_gt_30_review_keep,31.842949633529006
+Laos,2015,co2,annual_change_gt_30_review_keep,109.55411275615484
+Laos,2016,co2,annual_change_gt_30_review_keep,78.62707875326565
+Liberia,2019,co2,annual_change_gt_30_review_keep,53.07476111165137
+Libya,2014,co2,annual_change_gt_30_review_keep,33.11878844821787
+Libya,2020,co2,annual_change_gt_30_review_keep,-51.05522895894023
+Libya,2021,co2,annual_change_gt_30_review_keep,55.94430659704057
+Lesotho,2021,co2,annual_change_gt_30_review_keep,55.90406196447339
+Macao,2014,co2,annual_change_gt_30_review_keep,30.74073690255874
+Macao,2015,co2,annual_change_gt_30_review_keep,37.11048670394308
+Macao,2018,co2,annual_change_gt_30_review_keep,-35.55133270349307
+Myanmar,2015,co2,annual_change_gt_30_review_keep,38.04869824403565
+Myanmar,2018,co2,annual_change_gt_30_review_keep,43.93538128112564
+Mongolia,2011,co2,annual_change_gt_30_review_keep,55.15021820314834
+Mongolia,2012,co2,annual_change_gt_30_review_keep,63.779824866775556
+Mongolia,2014,co2,annual_change_gt_30_review_keep,-31.851151146373404
+Mongolia,2017,co2,annual_change_gt_30_review_keep,33.20393476627326
+Mongolia,2018,co2,annual_change_gt_30_review_keep,32.74942004044772
+Mozambique,2014,co2,annual_change_gt_30_review_keep,126.85634015445034
+Mauritania,2017,co2,annual_change_gt_30_review_keep,36.48348141540541
+Montserrat,2011,co2,annual_change_gt_30_review_keep,-37.5
+Montserrat,2016,co2,annual_change_gt_30_review_keep,-42.85714285714286
+Malawi,2018,co2,annual_change_gt_30_review_keep,41.65987702098126
+Niger,2012,co2,annual_change_gt_30_review_keep,41.0339617824518
+Niger,2019,co2,annual_change_gt_30_review_keep,39.36744563474663
+Niue,2013,co2,annual_change_gt_30_review_keep,100.0
+Nepal,2016,co2,annual_change_gt_30_review_keep,46.10510712527389
+Panama,2019,co2,annual_change_gt_30_review_keep,36.48404958913589
+Panama,2020,co2,annual_change_gt_30_review_keep,-47.3254156016255
+Panama,2021,co2,annual_change_gt_30_review_keep,54.70626660380917
+Papua New Guinea,2014,co2,annual_change_gt_30_review_keep,35.14886305587894
+North Korea,2017,co2,annual_change_gt_30_review_keep,103.60749434643748
+Sudan,2016,co2,annual_change_gt_30_review_keep,38.54105813158837
+Saint Helena,2016,co2,annual_change_gt_30_review_keep,33.33333333333333
+Saint Helena,2019,co2,annual_change_gt_30_review_keep,33.33333333333333
+Saint Helena,2021,co2,annual_change_gt_30_review_keep,-33.333333333333336
+Saint Helena,2022,co2,annual_change_gt_30_review_keep,50.0
+Sierra Leone,2011,co2,annual_change_gt_30_review_keep,30.872482855104643
+Eswatini,2014,co2,annual_change_gt_30_review_keep,-42.06128161473618
+Chad,2012,co2,annual_change_gt_30_review_keep,36.81601261592347
+Tajikistan,2014,co2,annual_change_gt_30_review_keep,58.38276878016164
+Turkmenistan,2021,co2,annual_change_gt_30_review_keep,45.76534127018779
+East Timor,2011,co2,annual_change_gt_30_review_keep,38.56368396292274
+East Timor,2012,co2,annual_change_gt_30_review_keep,36.27763355169185
+Tonga,2016,co2,annual_change_gt_30_review_keep,31.034476955656444
+Tuvalu,2013,co2,annual_change_gt_30_review_keep,-33.333333333333336
+Tuvalu,2018,co2,annual_change_gt_30_review_keep,50.0
+Ukraine,2022,co2,annual_change_gt_30_review_keep,-32.09146664004684
+Vietnam,2019,co2,annual_change_gt_30_review_keep,32.819686665777105
+Vanuatu,2014,co2,annual_change_gt_30_review_keep,43.33333355927282
+Yemen,2013,co2,annual_change_gt_30_review_keep,33.28953131435877
+Yemen,2015,co2,annual_change_gt_30_review_keep,-46.89112531697448

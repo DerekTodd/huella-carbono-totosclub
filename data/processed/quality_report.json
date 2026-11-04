@@ -1,0 +1,206 @@
+{
+  "analysis_date_local": "2026-11-04",
+  "source_url": "https://owid-public.owid.io/data/co2/owid-co2-data.csv",
+  "sha256": "7ec10de1e9502c20c70bfff54476d7893922f7594aa299d9291d87fe49f3e342",
+  "source_bytes": 33246106,
+  "codebook_url": "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-codebook.csv",
+  "codebook_sha256": "33b4f5e00efd58c7b83863f736beba1af4df946b43642b0400c3ec38648e0e8e",
+  "processed_at_utc": "2026-11-04T14:22:58.891666+00:00",
+  "input_rows": 50411,
+  "input_columns": 79,
+  "rows_2010_2023_all_entities": 3556,
+  "country_rows": 3052,
+  "country_entities": 218,
+  "regional_rows": 98,
+  "excluded_non_iso_entities": [
+    "Africa (GCP)",
+    "Asia (GCP)",
+    "Asia (excl. China and India)",
+    "Central America (GCP)",
+    "Europe (GCP)",
+    "Europe (excl. EU-27)",
+    "Europe (excl. EU-28)",
+    "European Union (27)",
+    "European Union (28)",
+    "High-income countries",
+    "International aviation",
+    "International shipping",
+    "Kosovo",
+    "Kuwaiti Oil Fires",
+    "Kuwaiti Oil Fires (GCP)",
+    "Least developed countries (Jones et al.)",
+    "Low-income countries",
+    "Lower-middle-income countries",
+    "Middle East (GCP)",
+    "Non-OECD (GCP)",
+    "North America (GCP)",
+    "North America (excl. USA)",
+    "OECD (GCP)",
+    "OECD (Jones et al.)",
+    "Oceania (GCP)",
+    "Ryukyu Islands",
+    "Ryukyu Islands (GCP)",
+    "South America (GCP)",
+    "Upper-middle-income countries"
+  ],
+  "exact_duplicates_removed": 0,
+  "conflicting_duplicates": 0,
+  "quarantined_rows": 0,
+  "issue_counts": {
+    "derived_discrepancy": 28,
+    "iqr_review_keep": 684,
+    "annual_change_gt_30_review_keep": 74
+  },
+  "coverage_by_year": [
+    {
+      "year": 2010,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2011,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2012,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2013,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2014,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2015,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2016,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2017,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2018,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2019,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2020,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2021,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2022,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 164,
+      "gdp_co2_pairs": 164
+    },
+    {
+      "year": 2023,
+      "rows": 218,
+      "co2": 215,
+      "population": 216,
+      "gdp": 0,
+      "gdp_co2_pairs": 0
+    }
+  ],
+  "top5_2023_preview": [
+    {
+      "iso_code": "CHN",
+      "country": "China",
+      "co2": 12172.0087890625
+    },
+    {
+      "iso_code": "USA",
+      "country": "United States",
+      "co2": 4918.40673828125
+    },
+    {
+      "iso_code": "IND",
+      "country": "India",
+      "co2": 3062.75634765625
+    },
+    {
+      "iso_code": "RUS",
+      "country": "Russia",
+      "co2": 1733.1346435546875
+    },
+    {
+      "iso_code": "JPN",
+      "country": "Japan",
+      "co2": 986.91015625
+    }
+  ],
+  "largest_relative_reduction_2013_2023_preview": [
+    {
+      "country": "Curacao",
+      "iso_code": "CUW",
+      "co2_2013": 5.932015895843506,
+      "co2_2023": 2.204922914505005,
+      "change_pct": -62.83012464531714
+    }
+  ],
+  "sector_columns_found": [],
+  "scope": "ISO3 countries/territories only; OWID special entities excluded from country rankings"
+}
