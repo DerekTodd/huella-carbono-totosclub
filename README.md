@@ -3,29 +3,41 @@
 **Equipo:** TotosClub  
 **Integrante:** Derek Todd López  
 **Tema:** Medio ambiente y sostenibilidad  
-**Entrega:** Fase 1 - Análisis  
+**Entrega:** Dashboard interactivo y análisis de Fase 1  
 **Periodo de estudio:** 2010-2023
 
 **Repositorio público:** [DerekTodd/huella-carbono-totosclub](https://github.com/DerekTodd/huella-carbono-totosclub)
 
 Proyecto de dashboard en React para comparar emisiones territoriales de CO₂ entre países y territorios, su evolución y su relación con la población y la actividad económica. Busca facilitar comparaciones informadas entre emisiones totales, emisiones por persona e intensidad de carbono de la economía.
 
-El dashboard será **estratégico**, porque estudia tendencias anuales y cambios de largo plazo. No se considera un monitor en tiempo real. La selección del periodo responde a la consigna; no implica que 2023 sea el último año publicado por la fuente.
+El dashboard es **estratégico** y estudia tendencias anuales y cambios de largo plazo. El periodo 2010–2023 corresponde a la consigna.
+
+## Abrir el dashboard
+
+Con Node.js 22.12 o posterior y Python 3.10 o posterior:
+
+```powershell
+npm ci
+npm run dev
+```
+
+Abre la dirección que imprime Vite. `npm run build` construye la versión de publicación en `dist/` y `npm run preview` permite probarla localmente.
+
+La aplicación incluye un mapa por persona y por volumen, un top 5 global, el cambio mundial anual, la mayor reducción relativa en diez años, series por continente, comparación de hasta tres países, una dispersión PIB–CO₂ y barras por combustible y proceso. La tabla permite buscar, ordenar y exportar los datos filtrados en CSV.
 
 ## Entregables
 
 - [Documento de justificación en PDF](output/pdf/TotosClub_Fase1_Huella_de_Carbono.pdf).
 - [Documento editable en Markdown](docs/fase-1.md).
-- [Diseño de base de datos PostgreSQL](db/schema.sql).
+- [Diseño preliminar de PostgreSQL de la Fase 1](db/schema.sql).
+- [Esquema SQLite implementado](db/dashboard.sql) y [constructor de la base](scripts/build_dashboard_db.py).
 - [Proceso reproducible de limpieza y perfilado](scripts/preprocess.py).
 - [Informe de calidad y cobertura](data/processed/quality_report.json).
 - Datos preparados de países/territorios y regiones en `data/processed/`.
 
 ## Estado y alcance
 
-El análisis, la limpieza inicial y el diseño están preparados en esta entrega. El PDF contiene resultados reales del perfilado de la instantánea descargada. Los CSV originales se conservan localmente en `data/raw/`, fuera de Git; el informe registra sus huellas SHA-256.
-
-La aplicación React, la API, la carga en un servidor PostgreSQL y el despliegue web corresponden a las siguientes fases y **todavía no están implementados**. El archivo SQL es un diseño ejecutable; no se ha ejecutado contra un servidor PostgreSQL. El repositorio de la Fase 1 es público y contiene el documento, los datos preparados y los scripts de reproducción.
+El PDF de Fase 1 documenta el perfilado y el diseño preliminar. La implementación usa SQLite para que la aplicación se pueda desplegar como sitio estático. El informe conserva las huellas SHA-256 de los originales. Los datos preparados incluyen 3,150 observaciones y mantienen las ausencias como valores nulos.
 
 ## Fuente y unidades
 
@@ -67,17 +79,15 @@ python -m pip install -r requirements-report.txt
 python scripts/build_report.py
 ```
 
-## Arquitectura prevista
+## Arquitectura implementada
 
 ```text
-OWID CSV -> validación y limpieza en Python -> PostgreSQL
-                                            |
-                                       API de lectura
-                                            |
-                                      dashboard React
+OWID CSV -> validación y limpieza en Python -> base SQLite -> consultas desde React con sql.js
 ```
 
-El frontend se podrá publicar en GitHub Pages. La API y PostgreSQL requerirán alojamiento separado: Pages sirve archivos estáticos. Las credenciales de la base de datos permanecerán en el servidor. La lectura pública del dashboard no necesitará autenticación de usuario.
+Vite empaqueta la aplicación y publica una copia de SQLite con los datos depurados. El navegador consulta esa base en modo de lectura con WebAssembly. El esquema separa entidades de observaciones e impide duplicar un país y año. Cada construcción comprueba integridad y claves foráneas.
+
+El gráfico económico usa PIB y CO₂ del mismo año. Para 2023 muestra explícitamente 2022, el último año con PIB en esta instantánea. Las barras usan los combustibles y procesos que publica la fuente. El segmento «Sin desglose» representa la diferencia entre el total y la suma disponible. Los países pequeños que no aparecen en el mapa a escala 1:110 millones se pueden consultar en la tabla y comparar con el selector.
 
 ## Acceso al repositorio de GitHub
 
@@ -88,7 +98,7 @@ git clone https://github.com/DerekTodd/huella-carbono-totosclub.git
 cd huella-carbono-totosclub
 ```
 
-En esta fase no existe una URL de dashboard desplegado. Tras implementar React, configurar GitHub Actions/Pages y verificar la URL pública. No subir `.env` ni credenciales.
+El flujo [Publicar dashboard](.github/workflows/pages.yml) construye y despliega `dist/`. En **Settings → Pages → Source**, selecciona **GitHub Actions**. Después, ejecuta el flujo desde **Actions** o publica un cambio en `main`. La dirección de GitHub Pages para este proyecto es [derektodd.github.io/huella-carbono-totosclub](https://derektodd.github.io/huella-carbono-totosclub/).
 
 ## Organización del trabajo
 

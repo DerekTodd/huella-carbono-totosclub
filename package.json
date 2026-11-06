@@ -1,0 +1,28 @@
+{
+  "name": "huella-carbono-totosclub",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data:build": "python scripts/build_dashboard_db.py",
+    "predev": "npm run data:build",
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "npm run data:build",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.1",
+    "lucide-react": "^0.468.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "sql.js": "^1.13.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
+  },
+  "devDependencies": {
+    "vite": "^7.2.0",
+    "world-countries": "^5.1.0"
+  },
+  "engines": { "node": ">=22.12.0" }
+}
