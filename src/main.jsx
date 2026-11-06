@@ -83,7 +83,7 @@ function Controls({ year, setYear, region, setRegion, catalog, selected, onSelec
         <div className="range-row"><span>2010</span><input id="year" type="range" min="2010" max="2023" value={year} onChange={event => setYear(Number(event.target.value))} /><span>2023</span></div>
       </div>
       <label className="select-field"><span><Globe2 size={16} /> Región</span>
-        <select value={region} onChange={event => setRegion(event.target.value)}><option value="">Todas las regiones</option>{REGIONS.map(item => <option key={item.id} value={item.id}>{item.name}</option>)}</select>
+        <select aria-label="Región" value={region} onChange={event => setRegion(event.target.value)}><option value="">Todas las regiones</option>{REGIONS.map(item => <option key={item.id} value={item.id}>{item.name}</option>)}</select>
       </label>
       <label className="select-field compare-field"><span><BarChart3 size={16} /> Comparar países</span>
         <select aria-label="Añadir país a la comparación" value="" disabled={selected.length === 3} onChange={event => onSelect(event.target.value)}>
@@ -154,7 +154,7 @@ function DataTable({ rows, year, onSelect, selected }) {
   return <div className="card table-card">
     <div className="table-controls">
       <label className="search"><Search size={18} /><input type="search" aria-label="Buscar país o código ISO3" placeholder="Buscar país o código ISO3" value={search} onChange={event => { setSearch(event.target.value); setPage(0) }} /></label>
-      <span className="table-count">{filtered.length} resultados · {year}</span>
+      <span className="table-count">{filtered.length} {filtered.length === 1 ? 'resultado' : 'resultados'} · {year}</span>
       <button type="button" className="button download" onClick={() => exportRows(filtered, year)} disabled={!filtered.length}><Download size={16} /> Descargar CSV</button>
     </div>
     <div className="table-scroll" tabIndex={0} aria-label="Tabla de indicadores, desplazamiento horizontal">
