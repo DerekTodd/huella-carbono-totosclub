@@ -2,11 +2,11 @@ import { Globe2, Leaf } from 'lucide-react'
 
 const SECTIONS = [ ['panorama', 'Panorama'], ['tendencias', 'Tendencias'], ['datos', 'Datos'], ['metodo', 'Metodología'] ]
 
-export function Header() {
+export function Header({ anonymous = false }) {
   return <header className="site-header">
     <div className="shell header-inner">
-      <a className="brand" href="#inicio" aria-label="TotosClub, inicio"><span className="brand-icon"><Leaf size={22} /></span>
-        <span><strong>TotosClub</strong><small>OBSERVATORIO CLIMÁTICO</small></span></a>
+      <a className="brand" href="#inicio" aria-label={anonymous ? 'Huella de carbono, inicio' : 'TotosClub, inicio'}><span className="brand-icon"><Leaf size={22} /></span>
+        <span><strong>{anonymous ? 'Huella de carbono' : 'TotosClub'}</strong><small>OBSERVATORIO CLIMÁTICO</small></span></a>
       <nav aria-label="Secciones del dashboard">{SECTIONS.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}</nav>
       <span className="header-period"><i /> DATOS 2010–2023</span>
     </div>

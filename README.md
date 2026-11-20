@@ -29,6 +29,9 @@ La aplicación incluye un mapa por persona y por volumen, un top 5 global, un ra
 
 ## Entregables
 
+- [Enlaces para la evaluación, PDF sin nombres de integrantes](output/pdf/Huella_de_carbono_Enlaces_Evaluacion.pdf).
+- [Dashboard para evaluación sin nombres visibles](https://derektodd.github.io/huella-carbono-totosclub/?evaluacion=1).
+- [Formulario público de evaluación](https://docs.google.com/forms/d/e/1FAIpQLSdhbkG4oES_HigRY7eSkBmnOdA6s82TCer8ORhsWno0_BJrbQ/viewform?usp=publish-editor). Incluye tres preguntas de perfil, diez afirmaciones en escala 1-5 y cinco preguntas abiertas; no recopila correos ni solicita nombres.
 - [Documento de justificación en PDF](output/pdf/TotosClub_Fase1_Huella_de_Carbono.pdf).
 - [Fase 2, diseño y wireframe](output/pdf/TotosClub_Fase2_Diseno_del_Dashboard.pdf).
 - [Fase 3, documentación de implementación](output/pdf/TotosClub_Fase3_Implementacion_React.pdf).

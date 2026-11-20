@@ -14,6 +14,8 @@ import {
 } from './data'
 import './style.css'
 
+const anonymous = new URLSearchParams(window.location.search).get('evaluacion') === '1'
+
 function Dashboard({ database }) {
   const [year, setYear] = useState(2023)
   const [region, setRegion] = useState('')
@@ -118,7 +120,7 @@ function Dashboard({ database }) {
       <SectionHeading number="03" title="Explorador de datos" description="Busca un país, ordena los indicadores y descarga la selección visible de año y región." />
       <DataTable key={resetKey} rows={filtered} year={year} onSelect={choose} selected={selected} />
     </section>
-    <Methodology year={year} eligibleCount={data.eligibleCount} economyYear={economy.year} />
+    <Methodology year={year} eligibleCount={data.eligibleCount} economyYear={economy.year} anonymous={anonymous} />
   </main>
 }
 
@@ -126,6 +128,7 @@ function App() {
   const [state, setState] = useState({ database: null, error: null })
   const [attempt, setAttempt] = useState(0)
   useEffect(() => {
+    if (anonymous) document.title = 'Huella de carbono: ¿quién contamina más?'
     let active = true
     openDatabase().then(database => { if (active) setState({ database, error: null }) })
       .catch(error => { if (active) setState({ database: null, error }) })
@@ -134,14 +137,14 @@ function App() {
 
   return <>
     <a className="skip-link" href="#contenido">Saltar al contenido</a>
-    <Header /><Hero />
+    <Header anonymous={anonymous} /><Hero />
     {state.database ? <Dashboard database={state.database} /> : <main className="shell main-content" id="contenido">
       <div className="card loading-state" role={state.error ? 'alert' : 'status'}><Leaf size={25} />
         <strong>{state.error ? 'Los datos no pudieron cargarse' : 'Cargando observaciones de CO₂…'}</strong>
         {state.error && <button type="button" className="button download" onClick={() => { setState({ database: null, error: null }); setAttempt(value => value + 1) }}><RotateCcw size={16} /> Reintentar</button>}
       </div>
     </main>}
-    <footer><div className="shell footer-inner"><span><Leaf size={17} /> <strong>TotosClub</strong> · Derek Todd López</span><span>Huella de carbono · 2010–2023</span></div></footer>
+    <footer><div className="shell footer-inner"><span><Leaf size={17} />{anonymous ? 'Observatorio climático' : <><strong>TotosClub</strong> · Derek Todd López</>}</span><span>Huella de carbono · 2010–2023</span></div></footer>
   </>
 }
 
