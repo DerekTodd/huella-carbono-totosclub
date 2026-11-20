@@ -188,6 +188,23 @@ tbody tr:nth-child(even) { background: #fafcf9; }
 .table-footer div { display: flex; gap: 5px; }
 .table-footer button { display: grid; place-items: center; width: 31px; height: 29px; border: 1px solid var(--line); border-radius: 6px; background: white; }
 .table-footer button:hover:not(:disabled) { background: #e9f2e5; }
+.glossary { padding: 24px; margin-bottom: 16px; scroll-margin-top: 20px; }
+.glossary-heading { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 20px; }
+.glossary-heading > svg { color: var(--green); margin-top: 3px; }
+.glossary-heading h3 { font-size: 21px; line-height: 1.3; }
+.glossary-heading p { color: var(--muted); font-size: 16px; line-height: 1.55; margin-top: 8px; max-width: 860px; }
+.glossary-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 28px; margin: 0; }
+.glossary-grid > div { min-width: 0; padding: 17px 0; border-top: 1px solid var(--line); }
+.glossary-grid dt { font-size: 16px; font-weight: 650; line-height: 1.4; color: var(--green); }
+.glossary-grid dd { margin: 7px 0 0; font-size: 16px; line-height: 1.6; overflow-wrap: anywhere; }
+.glossary-example { padding: 16px 18px; margin-top: 10px; border-radius: 8px; background: var(--tint); font-size: 16px; line-height: 1.6; }
+.glossary-example p { margin-top: 6px; }
+@media (max-width: 1080px) { .glossary-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) {
+  .glossary { padding: 18px; }
+  .glossary-grid { grid-template-columns: minmax(0, 1fr); }
+  .glossary-heading h3 { font-size: 19px; }
+}
 .method-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
 .method-card { padding: 17px; }
 .method-card > svg, .sources-intro > svg { color: var(--green); }
