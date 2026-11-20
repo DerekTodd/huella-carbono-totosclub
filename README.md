@@ -3,10 +3,12 @@
 **Equipo:** TotosClub  
 **Integrante:** Derek Todd López  
 **Tema:** Medio ambiente y sostenibilidad  
-**Entrega:** Dashboard interactivo y análisis de Fase 1  
+**Entrega:** Dashboard interactivo y documentación de las fases 1, 2 y 3  
 **Periodo de estudio:** 2010-2023
 
 **Repositorio público:** [DerekTodd/huella-carbono-totosclub](https://github.com/DerekTodd/huella-carbono-totosclub)
+
+**Dashboard publicado:** [Huella de carbono de TotosClub](https://derektodd.github.io/huella-carbono-totosclub/)
 
 Proyecto de dashboard en React para comparar emisiones territoriales de CO₂ entre países y territorios, su evolución y su relación con la población y la actividad económica. Busca facilitar comparaciones informadas entre emisiones totales, emisiones por persona e intensidad de carbono de la economía.
 
@@ -23,11 +25,14 @@ npm run dev
 
 Abre la dirección que imprime Vite. `npm run build` construye la versión de publicación en `dist/` y `npm run preview` permite probarla localmente.
 
-La aplicación incluye un mapa por persona y por volumen, un top 5 global, el cambio mundial anual, la mayor reducción relativa en diez años, series por continente, comparación de hasta tres países, una dispersión PIB–CO₂ y barras por combustible y proceso. La tabla permite buscar, ordenar y exportar los datos filtrados en CSV.
+La aplicación incluye un mapa por persona y por volumen, un top 5 global, un ranking de reducciones, tendencia mundial, columnas de cambio anual, series por continente, comparación de hasta tres países, una dispersión PIB–CO₂ y barras por combustible y proceso. La tabla permite buscar, ordenar y exportar los datos filtrados en CSV.
 
 ## Entregables
 
 - [Documento de justificación en PDF](output/pdf/TotosClub_Fase1_Huella_de_Carbono.pdf).
+- [Fase 2, diseño y wireframe](output/pdf/TotosClub_Fase2_Diseno_del_Dashboard.pdf).
+- [Fase 3, documentación de implementación](output/pdf/TotosClub_Fase3_Implementacion_React.pdf).
+- [Capturas y validación de interfaz](docs/evidence/).
 - [Documento editable en Markdown](docs/fase-1.md).
 - [Diseño preliminar de PostgreSQL de la Fase 1](db/schema.sql).
 - [Esquema SQLite implementado](db/dashboard.sql) y [constructor de la base](scripts/build_dashboard_db.py).
@@ -88,6 +93,23 @@ OWID CSV -> validación y limpieza en Python -> base SQLite -> consultas desde R
 Vite empaqueta la aplicación y publica una copia de SQLite con los datos depurados. El navegador consulta esa base en modo de lectura con WebAssembly. El esquema separa entidades de observaciones e impide duplicar un país y año. Cada construcción comprueba integridad y claves foráneas.
 
 El gráfico económico usa PIB y CO₂ del mismo año. Para 2023 muestra explícitamente 2022, el último año con PIB en esta instantánea. Las barras usan los combustibles y procesos que publica la fuente. El segmento «Sin desglose» representa la diferencia entre el total y la suma disponible. Los países pequeños que no aparecen en el mapa a escala 1:110 millones se pueden consultar en la tabla y comparar con el selector.
+
+## Correspondencia con el diseño de Fase 2
+
+El título y el KPI mundial conservan el nivel principal de lectura. CSS Grid distribuye las tarjetas en proporciones `4fr 2fr 3fr 3fr`, el panorama en `2fr 1fr` y el análisis en dos columnas iguales. El fondo lima identifica la tarjeta principal. Las vistas Mundo, Continentes, Países y Cambio % se reúnen en el panel temporal. El ranking alterna entre Top 5 y Reducciones.
+
+La paleta se concentra en `src/style.css`. Los componentes visuales están en `src/components/`, el mapa y los gráficos en `src/charts.jsx`, y las consultas y el formato de métricas en `src/data/`. El informe de Fase 3 incluye el árbol de carpetas, las fórmulas de los KPIs, las decisiones técnicas y la comparación de capturas.
+
+## Validar y regenerar el informe de Fase 3
+
+```powershell
+npm test
+npm run build
+python -m pip install -r requirements-report.txt
+python scripts/build_phase3_report.py
+```
+
+Las cinco pruebas verifican el universo del ranking, la elegibilidad decenal, la serie y el cambio mundial, los pares PIB–CO₂ y el tratamiento de ausencias y unidades. El flujo de GitHub ejecuta las pruebas antes de construir y publicar. Las capturas se obtuvieron de la aplicación local y se conservan con el registro `docs/evidence/validacion-fase3.json`.
 
 ## Acceso al repositorio de GitHub
 

@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-18",
+  "environment": "Vista local de React/Vite con datos SQLite",
+  "reductions": {
+    "count": 5,
+    "first": "01Curazao-62.8 %",
+    "title": "Mayores reducciones"
+  },
+  "world": "2023Mundo · 38.09 Gt",
+  "annual": {
+    "bars": 13,
+    "readout": "2023+1.5 % frente a 2022 · 38.09 Gt",
+    "year2020": "2020: -5.2 % respecto a 2019"
+  },
+  "firstYear": {
+    "annualEmpty": "No hay año previo dentro del periodo para calcular la variación.",
+    "rankingEmpty": "Selecciona un año entre 2020 y 2023 para comparar una década completa.",
+    "year": "2010"
+  },
+  "comparison": {
+    "disabled": true,
+    "selected": 3,
+    "series": "2023México · 458.25 MtEstados Unidos · 4.92 GtChina · 12.17 Gt"
+  },
+  "filters": {
+    "region": "2022 · América del Norte",
+    "results": "1 resultado · 2022",
+    "row": "MéxicoMEX453.83.53+1.6 %-9.5 %128,613,116$2.03 billones0.223",
+    "year": "2022"
+  },
+  "download": {
+    "country": "MEX",
+    "year": 2022,
+    "lines": 2
+  },
+  "responsive": {
+    "gridWidth": 476,
+    "overflow": false,
+    "primaryWidth": 476,
+    "tableScrollable": true,
+    "width": 520
+  },
+  "consoleErrors": 0
+}

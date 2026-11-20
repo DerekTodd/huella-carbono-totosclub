@@ -9,6 +9,8 @@
     "dev": "vite --host 127.0.0.1",
     "prebuild": "npm run data:build",
     "build": "vite build",
+    "pretest": "npm run data:build",
+    "test": "node --test tests/*.test.js",
     "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {

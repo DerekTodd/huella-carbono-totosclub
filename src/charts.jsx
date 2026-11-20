@@ -3,7 +3,7 @@ import { geoNaturalEarth1, geoPath } from 'd3-geo'
 import { feature } from 'topojson-client'
 import atlas from 'world-atlas/countries-110m.json'
 import { ArrowUpRight, Globe2, MapPin } from 'lucide-react'
-import { FUELS, REGIONS, dollars, number, tonnes } from './data'
+import { FUELS, REGIONS, dollars, number, percent, tonnes } from './data'
 
 const MAP_WIDTH = 700
 const MAP_HEIGHT = 346
@@ -92,6 +92,71 @@ export function TopRanking({ rows, world, year, onSelect, selected }) {
   </>
 }
 
+export function ReductionRanking({ rows, eligibleCount, year, onSelect, selected }) {
+  if (year < 2020) {
+    return <div className="empty-chart">Selecciona un año entre 2020 y 2023 para comparar una década completa.</div>
+  }
+  if (!rows.length) {
+    return <div className="empty-chart">No hay reducciones con cobertura completa para esta década.</div>
+  }
+  const maximum = Math.max(...rows.map(row => Math.abs(row.change)))
+  return <>
+    <div className="reduction-axis"><span>Reducción (%)</span><span>0</span></div>
+    <ol className="ranking-list reductions-list">
+      {rows.map((row, index) => <li key={row.entity_id}>
+        <button type="button" onClick={() => onSelect(row.entity_id)} aria-pressed={selected.includes(row.entity_id)}>
+          <span className="rank-number">0{index + 1}</span>
+          <span className="rank-body">
+            <span className="rank-label"><strong>{row.name}</strong><span>{percent(row.change)}</span></span>
+            <span className="rank-track reduction-track"><i style={{ width: `${100 * Math.abs(row.change) / maximum}%` }} /></span>
+          </span>
+          <ArrowUpRight className="rank-arrow" size={15} />
+        </button>
+      </li>)}
+    </ol>
+    <p className="chart-caption">{year - 10}–{year} · {eligibleCount} entidades elegibles. Base mínima de 1 Mt y once años con datos.</p>
+  </>
+}
+
+export function AnnualChangeChart({ rows }) {
+  const [focusedYear, setFocusedYear] = useState(null)
+  const measured = rows.filter(row => Number.isFinite(row.change))
+  if (!measured.length) {
+    return <div className="empty-chart">No hay año previo dentro del periodo para calcular la variación.</div>
+  }
+  const active = measured.find(row => row.year === focusedYear) ?? measured.at(-1)
+  const maximum = Math.max(...measured.map(row => Math.abs(row.change)))
+  const limit = Math.max(2, Math.ceil(maximum / 2) * 2)
+  const plotWidth = VIEW.width - VIEW.left - VIEW.right
+  const plotHeight = VIEW.height - VIEW.top - VIEW.bottom
+  const step = plotWidth / rows.length
+  const x = index => VIEW.left + (index + 0.5) * step
+  const y = value => VIEW.top + plotHeight * (limit - value) / (2 * limit)
+
+  return <>
+    <div className="chart-legend"><span><i style={{ background: '#2d775d' }} />Aumento (+)</span><span><i style={{ background: '#5c58a8' }} />Reducción (−)</span></div>
+    <svg className="plot annual-change" viewBox={`0 0 ${VIEW.width} ${VIEW.height}`} role="group" aria-label="Columnas de variación mundial anual de CO₂ en porcentaje">
+      {[-limit, -limit / 2, 0, limit / 2, limit].map(value => <g key={value}>
+        <line className={value === 0 ? 'zero-line' : 'gridline'} x1={VIEW.left} x2={VIEW.width - VIEW.right} y1={y(value)} y2={y(value)} />
+        <text className="axis-label" x={VIEW.left - 9} y={y(value) + 4} textAnchor="end">{value > 0 ? '+' : ''}{number(value, 1)} %</text>
+      </g>)}
+      {rows.map((row, index) => <g key={row.year}>
+        {Number.isFinite(row.change) && <rect className="annual-bar" tabIndex={0} role="img"
+          aria-label={`${row.year}: ${percent(row.change)} respecto a ${row.year - 1}`}
+          x={x(index) - Math.min(30, step * 0.65) / 2} y={Math.min(y(0), y(row.change))}
+          width={Math.min(30, step * 0.65)} height={Math.max(1, Math.abs(y(row.change) - y(0)))} rx="2"
+          fill={row.change < 0 ? '#5c58a8' : '#2d775d'}
+          onPointerEnter={() => setFocusedYear(row.year)} onPointerLeave={() => setFocusedYear(null)}
+          onFocus={() => setFocusedYear(row.year)} onBlur={() => setFocusedYear(null)} />}
+        {(index === 0 || index === rows.length - 1 || (index % 2 === 0 && index < rows.length - 2)) &&
+          <text className="axis-label" x={x(index)} y={VIEW.height - 15} textAnchor="middle">{row.year}</text>}
+      </g>)}
+    </svg>
+    <div className="chart-readout" aria-live="polite"><strong>{active.year}</strong><span>{percent(active.change)} frente a {active.year - 1} · {tonnes(active.co2)}</span></div>
+    {rows.some(row => row.change === null) && <p className="chart-caption">2010 queda sin columna porque 2009 está fuera de la instantánea del proyecto.</p>}
+  </>
+}
+
 function linearTicks(maximum) {
   const step = 10 ** Math.floor(Math.log10(maximum / 4 || 1))
   const interval = [1, 2, 2.5, 5, 10].map(value => value * step).find(value => maximum / value <= 5)
@@ -103,7 +168,7 @@ function Legend({ series, hidden, onToggle }) {
   return <div className="chart-legend">{series.map(item => onToggle ?
     <button key={item.id} type="button" className={hidden.includes(item.id) ? 'muted-legend' : ''}
       aria-pressed={!hidden.includes(item.id)} onClick={() => onToggle(item.id)}>
-      <i style={{ background: item.color }} />{item.name}
+      <svg width="19" height="8" aria-hidden="true"><line x1="0" x2="19" y1="4" y2="4" stroke={item.color} strokeWidth="2.5" strokeDasharray={item.dash} /></svg>{item.name}
     </button> : <span key={item.id}><i style={{ background: item.color }} />{item.name}</span>)}</div>
 }
 
@@ -152,7 +217,7 @@ export function TrendChart({ rows, series, start, end }) {
             return `${command}${x(year)},${y(value)}`
           }).join(' ')
           const current = byYear.get(`${item.id}:${inspection}`)
-          return <g key={item.id}><path d={points} fill="none" stroke={item.color} strokeWidth="2.7" strokeLinejoin="round" strokeLinecap="round" />
+          return <g key={item.id}><path d={points} fill="none" stroke={item.color} strokeWidth="2.7" strokeDasharray={item.dash} strokeLinejoin="round" strokeLinecap="round" />
             {current != null && <circle cx={x(inspection)} cy={y(current)} r="4.2" fill={item.color} stroke="white" strokeWidth="1.4" />}</g>
         })}
       </svg>
@@ -189,6 +254,7 @@ export function EconomyChart({ rows, year, selected, onSelect }) {
 
   return <>
     <div className="scatter-summary"><span><strong>{rows.length}</strong> pares en {year}</span><span><strong>{number(correlation, 2)}</strong> r de Pearson en log₁₀</span></div>
+    <Legend series={REGIONS.filter(region => rows.some(row => row.region === region.id))} />
     <svg className="plot scatter" viewBox={`0 0 ${VIEW.width} ${VIEW.height}`} role="group" aria-label="Gráfico de dispersión en escala logarítmica. Cada punto representa un país.">
       {yTicks.map(value => <g key={value}><line className="gridline" x1={VIEW.left} x2={VIEW.width - VIEW.right} y1={y(value)} y2={y(value)} /><text className="axis-label" x={VIEW.left - 8} y={y(value) + 4} textAnchor="end">{number(value, 3)}</text></g>)}
       {xTicks.map(value => <g key={value}><line className="gridline" x1={x(value)} x2={x(value)} y1={VIEW.top} y2={VIEW.height - VIEW.bottom} /><text className="axis-label" x={x(value)} y={VIEW.height - 23} textAnchor="middle">{`10${String(Math.round(Math.log10(value))).split('').map(digit => '⁰¹²³⁴⁵⁶⁷⁸⁹'[Number(digit)]).join('')}`}</text></g>)}
