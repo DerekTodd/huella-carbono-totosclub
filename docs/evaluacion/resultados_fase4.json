@@ -1,0 +1,494 @@
+{
+  "title": "Huella de carbono: ¿quién contamina más?",
+  "evaluation_date": "2026-11-26",
+  "collection_dates": [
+    "2026-11-25"
+  ],
+  "source": {
+    "filename": "respuestas.csv",
+    "sha256": "c469629897a32f8426c71e3133300fddbf1387a5ae859c3b738f715abef6c707",
+    "response_count": 5,
+    "closed_answers": 50,
+    "open_answers": 25
+  },
+  "confirmation": {
+    "date": "2026-11-26",
+    "distinct_people": 5,
+    "education": "Universitario",
+    "source": "Confirmación del responsable del proyecto en la conversación: si, universidad.",
+    "education_collected_by_form": false
+  },
+  "profile": {
+    "age": {
+      "18 a 24 años": 5
+    },
+    "gender": {
+      "Mujer": 3,
+      "Hombre": 2
+    },
+    "experience": {
+      "Los uso ocasionalmente": 2,
+      "Los uso con frecuencia": 3
+    }
+  },
+  "participants": [
+    {
+      "id": "P01",
+      "age": "18 a 24 años",
+      "education": "Universitario",
+      "experience": "Los uso ocasionalmente",
+      "scores": [
+        4,
+        3,
+        5,
+        5,
+        5,
+        4,
+        5,
+        3,
+        4,
+        5
+      ],
+      "mean": 4.3
+    },
+    {
+      "id": "P02",
+      "age": "18 a 24 años",
+      "education": "Universitario",
+      "experience": "Los uso ocasionalmente",
+      "scores": [
+        5,
+        4,
+        5,
+        4,
+        5,
+        4,
+        5,
+        5,
+        4,
+        5
+      ],
+      "mean": 4.6
+    },
+    {
+      "id": "P03",
+      "age": "18 a 24 años",
+      "education": "Universitario",
+      "experience": "Los uso con frecuencia",
+      "scores": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "mean": 5
+    },
+    {
+      "id": "P04",
+      "age": "18 a 24 años",
+      "education": "Universitario",
+      "experience": "Los uso con frecuencia",
+      "scores": [
+        4,
+        4,
+        4,
+        4,
+        3,
+        3,
+        2,
+        5,
+        4,
+        4
+      ],
+      "mean": 3.7
+    },
+    {
+      "id": "P05",
+      "age": "18 a 24 años",
+      "education": "Universitario",
+      "experience": "Los uso con frecuencia",
+      "scores": [
+        4,
+        4,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "mean": 4.2
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "text": "El dashboard es fácil de entender.",
+      "short": "Facilidad de comprensión",
+      "n": 5,
+      "mean": 4.4,
+      "median": 4,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 3,
+        "5": 2
+      },
+      "favorable": 5,
+      "favorable_pct": 100.0
+    },
+    {
+      "id": "Q02",
+      "text": "Los colores utilizados ayudan a interpretar la información.",
+      "short": "Colores informativos",
+      "n": 5,
+      "mean": 4,
+      "median": 4,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 1
+      },
+      "favorable": 4,
+      "favorable_pct": 80.0
+    },
+    {
+      "id": "Q03",
+      "text": "Puedo identificar fácilmente el KPI principal.",
+      "short": "Identificación del KPI principal",
+      "n": 5,
+      "mean": 4.8,
+      "median": 5,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 4
+      },
+      "favorable": 5,
+      "favorable_pct": 100.0
+    },
+    {
+      "id": "Q04",
+      "text": "Los gráficos representan correctamente los datos.",
+      "short": "Representación de los datos",
+      "n": 5,
+      "mean": 4.6,
+      "median": 5,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 3
+      },
+      "favorable": 5,
+      "favorable_pct": 100.0
+    },
+    {
+      "id": "Q05",
+      "text": "La información está bien organizada y estructurada.",
+      "short": "Organización de la información",
+      "n": 5,
+      "mean": 4.4,
+      "median": 5,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 3
+      },
+      "favorable": 4,
+      "favorable_pct": 80.0
+    },
+    {
+      "id": "Q06",
+      "text": "Los textos, títulos y etiquetas son claros.",
+      "short": "Claridad de textos y etiquetas",
+      "n": 5,
+      "mean": 4,
+      "median": 4,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 3,
+        "5": 1
+      },
+      "favorable": 4,
+      "favorable_pct": 80.0
+    },
+    {
+      "id": "Q07",
+      "text": "La interactividad (filtros y botones) es intuitiva.",
+      "short": "Interactividad intuitiva",
+      "n": 5,
+      "mean": 4.2,
+      "median": 5,
+      "counts": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 3
+      },
+      "favorable": 4,
+      "favorable_pct": 80.0
+    },
+    {
+      "id": "Q08",
+      "text": "Considero que el dashboard es visualmente atractivo.",
+      "short": "Atractivo visual",
+      "n": 5,
+      "mean": 4.4,
+      "median": 5,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 3
+      },
+      "favorable": 4,
+      "favorable_pct": 80.0
+    },
+    {
+      "id": "Q09",
+      "text": "El dashboard me permite obtener conclusiones.",
+      "short": "Obtención de conclusiones",
+      "n": 5,
+      "mean": 4.2,
+      "median": 4,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 4,
+        "5": 1
+      },
+      "favorable": 5,
+      "favorable_pct": 100.0
+    },
+    {
+      "id": "Q10",
+      "text": "En general, la experiencia de uso fue satisfactoria.",
+      "short": "Satisfacción general",
+      "n": 5,
+      "mean": 4.6,
+      "median": 5,
+      "counts": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 2,
+        "5": 3
+      },
+      "favorable": 5,
+      "favorable_pct": 100.0
+    }
+  ],
+  "dimensions": [
+    {
+      "name": "Usabilidad y organización",
+      "questions": [
+        "Q01",
+        "Q05"
+      ],
+      "mean": 4.4
+    },
+    {
+      "name": "Comprensión de la información",
+      "questions": [
+        "Q04",
+        "Q06"
+      ],
+      "mean": 4.3
+    },
+    {
+      "name": "KPIs: identificación del principal",
+      "questions": [
+        "Q03"
+      ],
+      "mean": 4.8
+    },
+    {
+      "name": "Estética y coherencia visual",
+      "questions": [
+        "Q02",
+        "Q08"
+      ],
+      "mean": 4.2
+    },
+    {
+      "name": "Interactividad y navegación",
+      "questions": [
+        "Q07"
+      ],
+      "mean": 4.2
+    },
+    {
+      "name": "Impacto y utilidad",
+      "questions": [
+        "Q09"
+      ],
+      "mean": 4.2
+    }
+  ],
+  "overall": {
+    "mean": 4.36,
+    "counts": {
+      "1": 0,
+      "2": 1,
+      "3": 4,
+      "4": 21,
+      "5": 24
+    },
+    "favorable": 45,
+    "favorable_pct": 90.0
+  },
+  "open_questions": [
+    "¿Qué te gustó más del dashboard?",
+    "¿Qué parte te resultó confusa o difícil de entender?",
+    "¿Qué mejorarías en el diseño o en los gráficos?",
+    "¿Qué KPI o gráfico te resultó más útil y por qué?",
+    "¿Agregarías o quitarías algún elemento?"
+  ],
+  "qualitative": [
+    {
+      "group": "Fortalezas",
+      "theme": "Diseño y colores valorados",
+      "participants": [
+        "P01",
+        "P02",
+        "P03",
+        "P04"
+      ],
+      "interpretation": "Se valora el aspecto visual; la preferencia de P01 por otra paleta no invalida esa valoración.",
+      "quote": "El diseño minimalista de color verde",
+      "quote_id": "P03",
+      "n": 4
+    },
+    {
+      "group": "Fortalezas",
+      "theme": "Organización y estructura",
+      "participants": [
+        "P01",
+        "P05"
+      ],
+      "interpretation": "La estructura aparece de forma explícita en los comentarios positivos.",
+      "quote": "La organización",
+      "quote_id": "P05",
+      "n": 2
+    },
+    {
+      "group": "Utilidad",
+      "theme": "Mapa de emisiones por persona",
+      "participants": [
+        "P02",
+        "P03"
+      ],
+      "interpretation": "Dos personas nombran expresamente el mapa como el gráfico más útil.",
+      "quote": "El mapa de emisiones por persona",
+      "quote_id": "P02",
+      "n": 2
+    },
+    {
+      "group": "Utilidad",
+      "theme": "Mayor emisor o mayor reducción",
+      "participants": [
+        "P04",
+        "P05"
+      ],
+      "interpretation": "Los KPIs apoyan la comparación de países y años.",
+      "quote": "mayor emision/mayor reducción",
+      "quote_id": "P04",
+      "n": 2
+    },
+    {
+      "group": "Problemas",
+      "theme": "Texto pequeño del explorador",
+      "participants": [
+        "P01"
+      ],
+      "interpretation": "Aumentar el tamaño de los valores y encabezados de la tabla.",
+      "quote": "el explorador de datos podría tener los datos mas grandes",
+      "quote_id": "P01",
+      "n": 1
+    },
+    {
+      "group": "Problemas",
+      "theme": "Líneas temporales difíciles de distinguir",
+      "participants": [
+        "P02"
+      ],
+      "interpretation": "Explicar cómo ocultar series con la leyenda y reducir la carga visual.",
+      "quote": "algunas líneas son un poco complejas de visualizar",
+      "quote_id": "P02",
+      "n": 1
+    },
+    {
+      "group": "Problemas",
+      "theme": "Lectura de la dispersión PIB-CO₂",
+      "participants": [
+        "P03"
+      ],
+      "interpretation": "Explicar cada punto, la orientación de los ejes y la escala logarítmica.",
+      "quote": "el grafico del PIB frente a CO2",
+      "quote_id": "P03",
+      "n": 1
+    },
+    {
+      "group": "Problemas",
+      "theme": "Alcance de los filtros poco claro",
+      "participants": [
+        "P04"
+      ],
+      "interpretation": "Aclarar qué cambia con año, región, comparación y el intervalo Desde.",
+      "quote": "Algunos filtros dentro de filtros resultan confusos",
+      "quote_id": "P04",
+      "n": 1
+    },
+    {
+      "group": "Recomendaciones",
+      "theme": "Comparar más países a la vez",
+      "participants": [
+        "P05"
+      ],
+      "interpretation": "Evaluar una vista alternativa antes de ampliar el límite de tres países.",
+      "quote": "Poder agregar más países al mismo tiempo",
+      "quote_id": "P05",
+      "n": 1
+    },
+    {
+      "group": "Recomendaciones",
+      "theme": "Hacer más compacta la página",
+      "participants": [
+        "P04"
+      ],
+      "interpretation": "Probar una distribución más compacta manteniendo la lectura de gráficos y ayudas.",
+      "quote": "Reduciría un poco el tamaño de la página",
+      "quote_id": "P04",
+      "n": 1
+    }
+  ],
+  "limitations": [
+    "Muestra de conveniencia pequeña, de nivel universitario y de 18 a 24 años.",
+    "No incluye usuarios sin experiencia previa con dashboards.",
+    "No se registraron tiempos de tareas, entrevistas ni observación directa.",
+    "La encuesta recoge percepciones y no corresponde a la escala SUS estandarizada.",
+    "Los resultados son anteriores a los ajustes del 26 de noviembre; no hay una segunda ronda de usuarios."
+  ]
+}

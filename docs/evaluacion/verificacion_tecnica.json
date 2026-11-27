@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-26",
+  "unit_tests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "build": "passed",
+  "release": {
+    "commit": "c64e63fefd44c1295a31f36122659debb0ae6ef7",
+    "workflow_run_id": 45935410101,
+    "status": "success"
+  },
+  "browser": {
+    "status": "passed",
+    "summary": "Tabla de 16 px y encabezados de 14 px; filtro México/2022 correcto; alcance mundial preservado; leyenda interactiva y ayudas visibles. Sin desbordamiento de página ni errores de consola.",
+    "checks": {
+      "table_font_px": 16,
+      "header_font_px": 14,
+      "initial_world": "38.09 Gt",
+      "economy_year": 2022,
+      "filters": {
+        "count": "1 resultado · 2023",
+        "helpOpen": true,
+        "overflow": false,
+        "row": "México\nMEX\n\t458.25\t3.53\t+1 %\t-7.5 %\t129,739,761\t—\t—",
+        "world": "38.09 Gt"
+      },
+      "legend": {
+        "hidden": 1,
+        "readout": "2023\nEuropa · 4.89 Gt\nAmérica del Norte · 6.1 Gt\nAmérica del Sur · 1.11 Gt\nÁfrica · 1.48 Gt\nOceanía · 433.18 Mt"
+      },
+      "table2022": {
+        "authorVisible": false,
+        "count": "1 resultado · 2022",
+        "font": "16px",
+        "headerFont": "14px",
+        "overflow": false,
+        "row": "México\nMEX\n\t453.8\t3.53\t+1.6 %\t-9.5 %\t128,613,116\t$2.03 billones\t0.223",
+        "tableScrollable": false,
+        "year": "2022"
+      }
+    },
+    "console_errors": 0
+  }
+}

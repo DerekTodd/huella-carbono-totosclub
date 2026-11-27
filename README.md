@@ -3,7 +3,7 @@
 **Equipo:** TotosClub  
 **Integrante:** Derek Todd López  
 **Tema:** Medio ambiente y sostenibilidad  
-**Entrega:** Dashboard interactivo y documentación de las fases 1, 2 y 3  
+**Entrega:** Dashboard interactivo y documentación de las fases 1, 2, 3 y 4  
 **Periodo de estudio:** 2010-2023
 
 **Repositorio público:** [DerekTodd/huella-carbono-totosclub](https://github.com/DerekTodd/huella-carbono-totosclub)
@@ -29,6 +29,8 @@ La aplicación incluye un mapa por persona y por volumen, un top 5 global, un ra
 
 ## Entregables
 
+- [Fase 4, evaluación y validación con cinco participantes](output/pdf/Huella_de_carbono_Fase4_Evaluacion_y_Validacion.pdf).
+- [Resultados anónimos, matriz y codificación de temas](docs/evaluacion/resultados_fase4.json) y [frecuencias por pregunta](docs/evaluacion/resultados_por_pregunta.csv).
 - [Enlaces para la evaluación, PDF sin nombres de integrantes](output/pdf/Huella_de_carbono_Enlaces_Evaluacion.pdf).
 - [Dashboard para evaluación sin nombres visibles](https://derektodd.github.io/huella-carbono-totosclub/?evaluacion=1).
 - [Formulario público de evaluación](https://docs.google.com/forms/d/e/1FAIpQLSdhbkG4oES_HigRY7eSkBmnOdA6s82TCer8ORhsWno0_BJrbQ/viewform?usp=publish-editor). Incluye tres preguntas de perfil, diez afirmaciones en escala 1-5 y cinco preguntas abiertas; no recopila correos ni solicita nombres.
@@ -113,6 +115,22 @@ python scripts/build_phase3_report.py
 ```
 
 Las cinco pruebas verifican el universo del ranking, la elegibilidad decenal, la serie y el cambio mundial, los pares PIB–CO₂ y el tratamiento de ausencias y unidades. El flujo de GitHub ejecuta las pruebas antes de construir y publicar. Las capturas se obtuvieron de la aplicación local y se conservan con el registro `docs/evidence/validacion-fase3.json`.
+
+## Evaluación con usuarios: Fase 4
+
+El 25 de noviembre de 2026 se recibieron cinco cuestionarios completos. El responsable confirmó que son personas diferentes y de nivel universitario; la edad y la experiencia proceden del formulario. El promedio de las 50 valoraciones es 4.36/5; la satisfacción general (Q10), 4.6/5. El 90 % de las valoraciones fueron de 4 o 5. Se analizaron los 25 comentarios abiertos y se documentaron las limitaciones de esta muestra.
+
+Se aumentó el texto de la tabla, se añadió ayuda sobre el alcance de los filtros y se explicó la leyenda temporal y la orientación de los ejes del PIB. Estas modificaciones se aplicaron el 26 de noviembre, después de la encuesta; su efecto en la percepción de los usuarios requiere otra ronda. El [registro técnico](docs/evaluacion/verificacion_tecnica.json) conserva la publicación y las comprobaciones de interfaz.
+
+Para reproducir la instantánea, exporta el CSV del formulario y colócalo en `tmp/fase4/respuestas.csv`. Los originales y las marcas temporales individuales permanecen en `tmp/`, que Git ignora. Los archivos publicados contienen códigos P01-P05, resultados y citas breves sin nombres ni horas individuales.
+
+```powershell
+python scripts/analyze_phase4.py tmp/fase4/respuestas.csv
+python -m pip install -r requirements-report.txt
+python scripts/build_phase4_report.py
+```
+
+La codificación cualitativa y la confirmación educativa pertenecen a esta muestra de cinco personas y deben actualizarse si se analiza otra. El informe usa una encuesta propia en escala 1-5 y no calcula una puntuación SUS.
 
 ## Acceso al repositorio de GitHub
 
