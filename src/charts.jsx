@@ -195,6 +195,7 @@ export function TrendChart({ rows, series, start, end }) {
 
   return <>
     <Legend series={series} hidden={hidden} onToggle={toggle} />
+    {series.length > 1 && <p className="chart-help">Pulsa el nombre de una serie en la leyenda para ocultarla o volver a mostrarla y comparar menos líneas.</p>}
     {visible.some(row => row.co2 !== null) ? <>
       <svg className="plot" viewBox={`0 0 ${VIEW.width} ${VIEW.height}`} aria-label="Series temporales de CO₂. Usa las flechas para recorrer los años." role="img" tabIndex={0}
         onPointerMove={inspect} onPointerLeave={() => setActiveYear(null)} onKeyDown={event => {
@@ -253,6 +254,7 @@ export function EconomyChart({ rows, year, selected, onSelect }) {
   const ordered = [...rows].sort((a, b) => Number(selected.includes(a.entity_id)) - Number(selected.includes(b.entity_id)))
 
   return <>
+    <p className="chart-help">Cada punto es un país. Hacia la derecha aumenta el PIB; hacia arriba, el CO₂. Las escalas logarítmicas avanzan por factores de diez.</p>
     <div className="scatter-summary"><span><strong>{rows.length}</strong> pares en {year}</span><span><strong>{number(correlation, 2)}</strong> r de Pearson en log₁₀</span></div>
     <Legend series={REGIONS.filter(region => rows.some(row => row.region === region.id))} />
     <svg className="plot scatter" viewBox={`0 0 ${VIEW.width} ${VIEW.height}`} role="group" aria-label="Gráfico de dispersión en escala logarítmica. Cada punto representa un país.">

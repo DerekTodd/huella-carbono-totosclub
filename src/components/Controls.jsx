@@ -20,6 +20,12 @@ export function Controls({ year, setYear, region, setRegion, catalog, selected, 
       </label>
       <button className="button subtle reset" type="button" onClick={reset}><RotateCcw size={16} /> Restablecer</button>
     </div>
+    <details className="filter-help">
+      <summary>¿Cómo funcionan estos filtros?</summary>
+      <p>El año de referencia actualiza los indicadores. La región limita el mapa, las series por continente, la gráfica del PIB y la tabla. Las tarjetas y el ranking conservan su alcance mundial.</p>
+      <p>Puedes comparar hasta tres países. La región limita las opciones para añadir países; los ya seleccionados permanecen. Pulsa el nombre de un país seleccionado para quitarlo.</p>
+      <p>El selector «Desde» ajusta solo el inicio de la serie temporal. «Restablecer» devuelve el año a 2023 y limpia los filtros y la comparación. La gráfica del PIB indica el año disponible que utiliza.</p>
+    </details>
     {(selected.length > 0 || message) && <div className="comparison-pills">
       {selected.map((id, index) => <button type="button" key={id} className="pill" onClick={() => onSelect(id)} aria-label={`Quitar ${catalog.find(row => row.id === id)?.name}`}>
         <i style={{ background: COMPARE_COLORS[index] }} />{catalog.find(row => row.id === id)?.name}<X size={14} />
